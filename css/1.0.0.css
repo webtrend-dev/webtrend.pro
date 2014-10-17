@@ -1,12 +1,90 @@
+@font-face {
+  font-family: 'Helvetica-6-Medium';
+  src: url('../fonts/Helvetica-6-Medium.eot?') format('eot'), 
+       url('../fonts/Helvetica-6-Medium.woff') format('woff'), 
+       url('../fonts/Helvetica-6-Medium.ttf')  format('truetype'),
+       url('../fonts/Helvetica-6-Medium.svg#svgFontName') format('svg');
+}
 html {}
 body {}
 
 .header {
   position: relative;
-  height: 51px;
+  height: 95px;
+}
+.header .container{
+  padding:0;
+}
+.header .navbar{
+  background-color:#020202;
+  border: none;
+}
+.header .navbar>.container .navbar-brand{
+  position:relative;
+  display: block;
+  line-height: 25px;
+  height: 33px;
+  padding: 0px 0px;
+  margin: 54px 0 0 64px;
+  font-family: 'Helvetica-6-Medium';
+  font-size: 33px;
+  color: #fff;
+}
+.header .navbar-brand:before{
+  display: block;
+  content: '';
+  width: 54px;
+  height: 54px;
+  background: #da3039 url('../images/logo-webtrend.png') center center no-repeat;
+  position: absolute;
+  bottom: 33px;
+  left: -64px;
+}
+.navbar-nav.navbar-right:last-child{
+  margin-right: 0;
+}
+.header .nav{
+  margin-top:64px;
+}
+.header .navbar-nav>li>a{
+  padding: 0 0 7px;
+  margin: 0px 15px;
+  font-size: 16px;
+  color:#fff;
+  font-family: 'Helvetica-6-Medium';
+}
+.header .navbar-nav>li.active a{
+  color: #da3039;
+  border-bottom: 4px solid #da3039;
+}
+
+.top-slider .jumbotron .h1{
+  font-family: 'Helvetica-6-Medium';
+  color: #fff;
+  
 }
 
 
+
+
+.black-comma{
+  background:#020202;
+  color:#fff;
+  border-radius:20px;
+  padding: 10px;
+  position:relative;
+}
+.black-comma:after{
+  content:'';
+  width: 0;
+  height: 0;
+  border-top: 5px solid transparent;
+  border-left: 10px solid #020202;
+  border-bottom: 5px solid transparent;
+  position: absolute;
+  right: -6px;
+  top: 13px;
+}
 
 
 

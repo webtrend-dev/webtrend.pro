@@ -11,7 +11,7 @@
 </head>
 <body>
 <header class="header">
-  <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+  <div class="navbar navbar-inverse " role="navigation"><!--navbar-fixed-top-->
     <div class="container">
       <div class="navbar-header">
         <a class="navbar-brand" href="/">web trend</a>
@@ -85,7 +85,7 @@
 <div class="company-stats">
   <div class="container">
     <ul class="list-inline">
-      <li class="col-xs-4"><span>78</span> довольных клиентов</li>
+      <li class="col-xs-4"><span class="black-comma">78</span> довольных клиентов</li>
       <li class="col-xs-4"><span>116</span> действующих проектов</li>
       <li class="col-xs-4"><span>78</span> работ в портфолио</li>
     </ul>
