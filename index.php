@@ -30,7 +30,7 @@
 </header>
 <div class="top-slider">
   <div class="tab-content">
-    <div class="tab-pane fade in " id="top-slider-1">
+    <div class="tab-pane fade in active" id="top-slider-1">
       <div class="container">
         <div class="jumbotron">
           <p class="h1 black-h1">Скидка 25%</p>
@@ -40,7 +40,7 @@
         </div>
       </div>
     </div>
-    <div class="tab-pane fade in " id="top-slider-2">
+    <div class="tab-pane fade in" id="top-slider-2">
       <div class="container">
         <div class="jumbotron">
           <p class="h1 white-h1">Интернет-магазин</p>
@@ -50,7 +50,7 @@
         </div>
       </div>
     </div>
-    <div class="tab-pane fade in active" id="top-slider-3">
+    <div class="tab-pane fade in" id="top-slider-3">
       <div class="container">
         <div class="jumbotron">
           <p class="h1 ">Hello, world!</p>
@@ -74,9 +74,9 @@
   <div class="tab-list slider-buttons">
     <div class="container">
       <ul class="list-inline" role="tablist">
-        <li class="col-xs-3"><a href="#top-slider-1" role="tab" data-toggle="tab" class="tab-sale-icon">Скидка 25%</a></li>
+        <li class="col-xs-3 active"><a href="#top-slider-1" role="tab" data-toggle="tab" class="tab-sale-icon">Скидка 25%</a></li>
         <li class="col-xs-3"><a href="#top-slider-2" role="tab" data-toggle="tab" class="tab-shop-icon">Интернет-магазин</a></li>
-        <li class="col-xs-3 active"><a href="#top-slider-3" role="tab" data-toggle="tab" class="tab-records-icon">Рекордсмены</a></li>
+        <li class="col-xs-3"><a href="#top-slider-3" role="tab" data-toggle="tab" class="tab-records-icon">Рекордсмены</a></li>
         <li class="col-xs-3"><a href="#top-slider-4" role="tab" data-toggle="tab" class="tab-leaders-icon">Лидеры</a></li>
       </ul>
     </div>
@@ -85,14 +85,14 @@
 <div class="company-stats">
   <div class="container">
     <ul class="list-inline">
-      <li class="col-xs-4"><span class="black-comma">78</span> довольных клиентов</li>
-      <li class="col-xs-4"><span class="black-comma">116</span> действующих проектов</li>
+      <li class="col-xs-4"><span class="black-comma">78</span> <span class="stats-description">довольных клиентов</span></li>
+      <li class="col-xs-4"><span class="black-comma short-black-comma">116</span> действующих проектов</li>
       <li class="col-xs-4"><span class="black-comma">78</span> работ в портфолио</li>
     </ul>
   </div>
 </div>
 <div class="services" id="uslugi">
-  <header class="panel panel-red">
+  <header class="panel-red-big">
     <div class="container">
       <div class="jumbotron">
         <div class="h1">Услуги</div>

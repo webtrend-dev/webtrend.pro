@@ -41,6 +41,7 @@ body {}
 .header .navbar{
   background-color:#020202;
   border: none;
+  border-radius: 0;
 }
 .header .navbar>.container .navbar-brand{
   position:relative;
@@ -93,7 +94,7 @@ body {}
   background: url('../images/slide-1-full.jpg') center center no-repeat;
 }
 #top-slider-2{
-  background: url('../images/slide-2-full.jpg') center center no-repeat;
+  background:#da3039 url('../images/slide-2-full-transparent.png') center center no-repeat;
 }
 #top-slider-3{
   background: url('../images/slide-3-full.jpg') center center no-repeat;
@@ -172,6 +173,7 @@ background: -o-linear-gradient(left, #000 33%, transparent 34%, transparent 44%,
 
 .slider-buttons .container{
   position: relative;
+  padding: 0;
 }
 .slider-buttons .container:after{
   content: '';
@@ -192,6 +194,7 @@ background: -o-linear-gradient(left, #000 33%, transparent 34%, transparent 44%,
 .slider-buttons{
   margin-top: -137px;/* что с ресайзом и разными размерами */
   height: 137px;
+  overflow-x: hidden;
 }
 .slider-buttons ul{
   margin: 0;
@@ -217,15 +220,16 @@ background: -o-linear-gradient(left, #000 33%, transparent 34%, transparent 44%,
   font-family: 'Helvetica-9-Black';
   font-size: 29px;
   color: #da3039;
+  background: #fff;
 }
 .tab-shop-icon:after{
-  background: url('../images/tab-shop-icon.png') center center no-repeat;
+  background:#fff url('../images/tab-shop-icon.png') center center no-repeat;
 }
 .tab-records-icon:after{
-  background: url('../images/tab-records-icon.png') center center no-repeat;
+  background:#fff url('../images/tab-records-icon.png') center center no-repeat;
 }
 .tab-leaders-icon:after{
-  background: url('../images/tab-leaders-icon.png') center center no-repeat;
+  background:#fff url('../images/tab-leaders-icon.png') center center no-repeat;
 }
 .slider-buttons li a:before{
   content: '';
@@ -252,17 +256,22 @@ background: -o-linear-gradient(left, #000 33%, transparent 34%, transparent 44%,
 .slider-buttons li.active a{
   color: #fff;
 }
+.slider-buttons li.active a:after{
+  border-color:transparent;
+}
 .slider-buttons li.active a:before{
   background: #fff;
 }
 
-
-
+.company-stats ul{
+  line-height: 211px;
+}
 .company-stats li{
   font-family: 'Helvetica-6-Medium';
   font-size: 14px;
   color: #231f20;
   text-transform: uppercase;
+  text-align: center;
 }
 .black-comma{
   background:#020202;
@@ -271,7 +280,9 @@ background: -o-linear-gradient(left, #000 33%, transparent 34%, transparent 44%,
   color:#fff;
   border-radius: 34px;
   padding: 17px;
+  margin-right: 15px;
   position:relative;
+  vertical-align: middle;
 }
 .black-comma:after{
   content:'';
@@ -284,8 +295,35 @@ background: -o-linear-gradient(left, #000 33%, transparent 34%, transparent 44%,
   right: -8px;
   top: 29px;
 }
+.short-black-comma{
+  padding: 17px 8px;
+}
+.stats-description{
+  vertical-align: middle;
+}
 
-
-
-
+/* ------------------- */
+.services{
+  text-align:center;
+}
+.services .panel-red-big{
+  background:#da3039 url('../images/panel-uslugi-big.png') center center no-repeat;
+}
+.services .jumbotron{
+  padding: 105px 0;
+  background-color: transparent;
+}
+.services .jumbotron .h1{
+  font-family: 'Helvetica-4-Light';
+  font-size: 50px;
+  text-transform: uppercase;
+  color:#fff;
+  margin: 0;
+}
+.services .panel-preview{
+  font-family: 'Helvetica-4-Light';
+  font-size: 18px;
+  color:#fff;
+  margin: 20px 0 80px;
+}
 /* скомпилировать в less */
