@@ -326,4 +326,74 @@ background: -o-linear-gradient(left, #000 33%, transparent 34%, transparent 44%,
   color:#fff;
   margin: 20px 0 80px;
 }
+.uslugi-legend-map{
+  height: 2px;
+  position: relative;
+  background: #fff;
+  width: 85%;
+  margin: 0 auto 60px;
+}
+.uslugi-point{
+  position: absolute;
+  top:-7px;
+  background: #fff;
+  width: 14px;
+  height: 14px;
+  border-radius: 7px;
+}
+.p1{
+  left: 0;
+}
+.p2{
+  left:33.333%;
+}
+.p3{
+  left:66.667%;
+}
+.p4{
+  right: 0;
+}
+.services-main-buttons{
+  
+}
+.uslugi-main-buttons a{
+  font-family: 'Helvetica-6-Medium';
+  font-size: 17px;
+  text-transform: uppercase;
+  color:#fff;
+}
+.button-razrabotka{
+  margin-right: 30%;
+  position: relative;
+  background: url('../images/razrabotka-button-big.png') center center no-repeat;
+  width: 114px;
+  height: 94px;
+}
+.button-razrabotka:before{
+  position: absolute;
+  content:'Разработка';
+  bottom: -50px;
+}
+.button-soprovozhdenie{
+  margin-right: 5%;
+}
+.button-proektirovanie{
+  margin-left: 21%;
+}
+.button-analitika{
+  margin-left: 36%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* скомпилировать в less */

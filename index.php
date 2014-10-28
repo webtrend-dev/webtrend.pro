@@ -98,6 +98,20 @@
         <div class="h1">Услуги</div>
         <div class="panel-preview">Мы растущая компания, которая фокусируется<br> на разработке, проектировании, поддержке сайтов</div>
         <div class="panel-legend">
+          <div class="container">
+            <div class="uslugi-legend-map">
+	          <div class="uslugi-point"></div>
+	          <div class="uslugi-point p2"></div>
+	          <div class="uslugi-point p3"></div>
+	          <div class="uslugi-point p4"></div>
+            </div>
+            <ul class="list-inline uslugi-main-buttons">
+              <li class="col-xs-3 active"><a href="#to-razrabotka" class="button-razrabotka"></a></li>
+              <li class="col-xs-3"><a href="#to-soprovozhdenie" class="button-soprovozhdenie">Сопровождение</a></li>
+              <li class="col-xs-3"><a href="#to-proektirovanie" class="button-proektirovanie">Проектирование</a></li>
+              <li class="col-xs-3"><a href="#to-analitika" class="button-analitika">Аналитика</a></li>
+            </ul>
+          </div>
           <!-- разработка, сопровождение, проектирвоание, аналитика -->
         </div>
       </div>
@@ -105,7 +119,10 @@
   </header>
   <div class="section-description">
     <div class="container">
-      <p>Awesome text</p>
+      <p>Мы проектируем и создаем сайты как единую систему для решения поставленных заказчиком задач. Глубоко погружаемся в проект, каждую страницу рассматриваем как интерфейс, требующий проработки контента. Сразу продумываем рекламные кампании.</p>
+      <p>
+	    <a href="#" class="btn btn-black-red btn-lg">Подробнее</a>
+      </p>
     </div>
   </div>
   <div class="services-site-creating" id="services-site-creating">
