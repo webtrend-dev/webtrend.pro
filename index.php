@@ -106,10 +106,10 @@
 	          <div class="uslugi-point p4"></div>
             </div>
             <ul class="list-inline uslugi-main-buttons">
-              <li class="col-xs-3 active"><a href="#to-razrabotka" class="button-razrabotka active">Разработка</a></li>
-              <li class="col-xs-3"><a href="#to-soprovozhdenie" class="button-soprovozhdenie active">Сопровождение</a></li>
-              <li class="col-xs-3"><a href="#to-proektirovanie" class="button-proektirovanie active">Проектирование</a></li>
-              <li class="col-xs-3"><a href="#to-analitika" class="button-analitika active">Аналитика</a></li>
+              <li class="col-xs-3"><a href="#to-razrabotka" class="button-razrabotka active">Разработка</a></li>
+              <li class="col-xs-3"><a href="#to-soprovozhdenie" class="button-soprovozhdenie">Сопровождение</a></li>
+              <li class="col-xs-3"><a href="#to-proektirovanie" class="button-proektirovanie">Проектирование</a></li>
+              <li class="col-xs-3"><a href="#to-analitika" class="button-analitika">Аналитика</a></li>
             </ul>
           </div>
           <!-- разработка, сопровождение, проектирвоание, аналитика -->
@@ -117,7 +117,7 @@
       </div>
     </div>
   </header>
-  <div class="uslugi-section-description"><?/* style="position:relative;"><div style="position:absolute; width:123px; height:75px; background:green; left:46%; top:0;"></div>*/?>
+  <div class="uslugi-section-description"><?/* style="position:relative;"><div style="position:absolute; width:123px; height:70px; background:green; left:46%; top:10px;"></div>*/?>
     <div class="container">
       <p class="uslugi-text">Мы проектируем и создаем сайты как единую систему для решения поставленных заказчиком<br> задач. Глубоко погружаемся в проект, каждую страницу рассматриваем как интерфейс,<br> требующий проработки контента. Сразу продумываем рекламные кампании.</p>
       <p>

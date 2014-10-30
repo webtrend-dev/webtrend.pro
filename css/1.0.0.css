@@ -396,8 +396,9 @@ background: -o-linear-gradient(left, #000 33%, transparent 34%, transparent 44%,
   display: block;
 }
 .uslugi-main-buttons a.active:after{
-  position: absolute;
   content: '';
+  position: absolute;
+  bottom: 49px;
   left:50%;
   margin-left: -25px;
   width: 50px;
@@ -436,7 +437,7 @@ background: -o-linear-gradient(left, #000 33%, transparent 34%, transparent 44%,
   background: url('../images/button-soprovozhdenie-big.png') center center no-repeat;
 }
 .button-soprovozhdenie.active:before{
-  top: -164px;
+  top: -165px;
 }
 .button-proektirovanie{
   margin-left: 21%;
@@ -453,7 +454,7 @@ background: -o-linear-gradient(left, #000 33%, transparent 34%, transparent 44%,
   background: url('../images/button-proektirovanie-big.png') center center no-repeat;
 }
 .button-proektirovanie.active:before{
-  top: -153px;
+  top: -154px;
 }
 .button-analitika{
   margin-left: 36%;
@@ -470,7 +471,7 @@ background: -o-linear-gradient(left, #000 33%, transparent 34%, transparent 44%,
   background: url('../images/button-analitika-big.png') center center no-repeat;
 }
 .button-analitika.active:before{
-  top: -154px;
+  top: -155px;
 }
 .uslugi-section-description{
   padding: 69px 30px 68px;
