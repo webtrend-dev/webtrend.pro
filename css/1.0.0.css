@@ -36,6 +36,20 @@ body {}
   color:#231f20;
   text-transform: uppercase;
 }
+.bottom-red-line{
+  position: relative;
+}
+.bottom-red-line:after{
+  content: '';
+  position: absolute;
+  width: 50px;
+  bottom:-12px;
+  left:50%;
+  margin-left: -25px;
+  height: 2px;
+  background: #da3039;
+}
+
 .header {
   position: relative;
   height: 95px;
@@ -496,17 +510,19 @@ background: -o-linear-gradient(left, #000 33%, transparent 34%, transparent 44%,
 .panel-services-menu-red{
   background: #da3039 url('../images/panel-services-menu-red.png') center center no-repeat;
 }
-.panel-services-menu-red > .container{
-  /*min-height: 105px;
-  position: relative;*/
-}
+.panel-services-menu-red > .container{}
 .uslugi-buttons-panel{
   padding: 112px 0 33px;
 }
+.uslugi-buttons-panel > .container{
+  position: relative;
+  min-height: 24px;
+  padding: 0;
+}
 .uslugi-buttons-small{
+  position: absolute;
+  width: 100%;
   margin: 0;
-  /*position: absolute;
-  width: 100%;*/
 }
 .uslugi-buttons-small a{
   font-family: 'Helvetica-6-Medium';
@@ -514,6 +530,20 @@ background: -o-linear-gradient(left, #000 33%, transparent 34%, transparent 44%,
   text-transform: uppercase;
   color: #fff;
   position: relative;
+}
+.uslugi-buttons-small a.active{
+  margin-top:15px;
+  display: block;
+}
+.uslugi-buttons-small a.active:after{
+  content: '';
+  position: absolute;
+  bottom: 40px;
+  left:50%;
+  margin-left: -25px;
+  width: 50px;
+  height: 2px;
+  background: #fff;
 }
 .button-razrabotka-small:before{
   content: '';
@@ -525,7 +555,9 @@ background: -o-linear-gradient(left, #000 33%, transparent 34%, transparent 44%,
   margin-left: -31px;
   background: url('../images/button-razrabotka-small.png') center center no-repeat;
 }
-
+.button-razrabotka-small.active:before{
+  top: -87px;
+}
 .button-soprovozhdenie-small:before{
   content: '';
   position: absolute;
@@ -560,18 +592,7 @@ background: -o-linear-gradient(left, #000 33%, transparent 34%, transparent 44%,
 }
 
 .services-workflow{
-  position: relative;
   margin-top: 71px;
-}
-.services-workflow:before{
-  content: '';
-  position: absolute;
-  width: 50px;
-  top:-61px;
-  left:50%;
-  margin-left: -25px;
-  height: 2px;
-  background: #da3039;
 }
 
 

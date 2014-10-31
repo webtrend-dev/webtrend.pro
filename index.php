@@ -10,6 +10,7 @@
   <link href="css/1.0.0.css" rel="stylesheet">
 </head>
 <body>
+<div style="position:absolute;bottom:19px; left:47%; height:21px; width:150px; background:green;"></div>
 <header class="header">
   <div class="navbar navbar-inverse " role="navigation"><!--navbar-fixed-top-->
     <div class="container">
@@ -21,8 +22,8 @@
           <li><a href="#o-kompanii">о компании</a></li>
           <li><a href="#uslugi">услуги</a></li>
           <li class="active"><a href="#portfolio">портфолио</a></li>
-          <li><a href="#kontakty">услуги</a></li>
-          <li><a href="#blog">блог</a></li>
+          <li><a href="#kontakty">блог</a></li>
+          <li><a href="#blog">контакты</a></li>
         </ul>
       </div><!--/.nav-collapse -->
     </div>
@@ -126,22 +127,26 @@
     </div>
   </div>
   
-  <div class="services-site-creating" id="services-site-creating">
     <div class="panel-services-menu">
 	  <div class="panel-services-menu-red">
         <div class="container">
 	      <div class="uslugi-buttons-panel">
-		    <ul class="list-inline uslugi-buttons-small clearfix">
-		      <li class="col-xs-3"><a href="#" class="button-razrabotka-small">Разработка</a></li>
-		      <li class="col-xs-3"><a href="#" class="button-soprovozhdenie-small">Сопровождение</a></li>
-		      <li class="col-xs-3"><a href="#" class="button-proektirovanie-small">Проектирование</a></li>
-		      <li class="col-xs-3"><a href="#" class="button-analitika-small">Аналитика</a></li>
-		    </ul>
+	        <div class="container">
+		      <ul class="list-inline uslugi-buttons-small">
+		        <li class="col-xs-3"><a href="#" class="button-razrabotka-small active">Разработка</a></li>
+		        <li class="col-xs-3"><a href="#" class="button-soprovozhdenie-small">Сопровождение</a></li>
+		        <li class="col-xs-3"><a href="#" class="button-proektirovanie-small">Проектирование</a></li>
+		        <li class="col-xs-3"><a href="#" class="button-analitika-small">Аналитика</a></li>
+		      </ul>
+	        </div>
 	      </div>
         </div>
 	  </div>
     </div>
-    <div class="h2">Разработка</div>
+  
+  <div class="services-site-creating" id="services-site-creating">
+    
+    <div class="h2 bottom-red-line">Разработка</div>
     <div class="services-workflow">
       <img src="./images/services-algorithm.png">
     </div>
