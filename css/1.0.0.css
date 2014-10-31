@@ -30,7 +30,12 @@
 }
 html {}
 body {}
-
+.h2{
+  font-family: 'Helvetica-6-Medium';
+  font-size: 21px;
+  color:#231f20;
+  text-transform: uppercase;
+}
 .header {
   position: relative;
   height: 95px;
@@ -396,8 +401,9 @@ background: -o-linear-gradient(left, #000 33%, transparent 34%, transparent 44%,
   display: block;
 }
 .uslugi-main-buttons a.active:after{
-  position: absolute;
   content: '';
+  position: absolute;
+  bottom: 49px;
   left:50%;
   margin-left: -25px;
   width: 50px;
@@ -436,7 +442,7 @@ background: -o-linear-gradient(left, #000 33%, transparent 34%, transparent 44%,
   background: url('../images/button-soprovozhdenie-big.png') center center no-repeat;
 }
 .button-soprovozhdenie.active:before{
-  top: -164px;
+  top: -165px;
 }
 .button-proektirovanie{
   margin-left: 21%;
@@ -453,7 +459,7 @@ background: -o-linear-gradient(left, #000 33%, transparent 34%, transparent 44%,
   background: url('../images/button-proektirovanie-big.png') center center no-repeat;
 }
 .button-proektirovanie.active:before{
-  top: -153px;
+  top: -154px;
 }
 .button-analitika{
   margin-left: 36%;
@@ -470,7 +476,7 @@ background: -o-linear-gradient(left, #000 33%, transparent 34%, transparent 44%,
   background: url('../images/button-analitika-big.png') center center no-repeat;
 }
 .button-analitika.active:before{
-  top: -154px;
+  top: -155px;
 }
 .uslugi-section-description{
   padding: 69px 30px 68px;
@@ -482,6 +488,92 @@ background: -o-linear-gradient(left, #000 33%, transparent 34%, transparent 44%,
   line-height: 1;
   margin: 0 0 50px;
 }
+
+/*	services-site-creating	*/
+.panel-services-menu{
+  margin: 0 0 28px;
+}
+.panel-services-menu-red{
+  background: #da3039 url('../images/panel-services-menu-red.png') center center no-repeat;
+}
+.panel-services-menu-red > .container{
+  /*min-height: 105px;
+  position: relative;*/
+}
+.uslugi-buttons-panel{
+  padding: 112px 0 33px;
+}
+.uslugi-buttons-small{
+  margin: 0;
+  /*position: absolute;
+  width: 100%;*/
+}
+.uslugi-buttons-small a{
+  font-family: 'Helvetica-6-Medium';
+  font-size: 17px;
+  text-transform: uppercase;
+  color: #fff;
+  position: relative;
+}
+.button-razrabotka-small:before{
+  content: '';
+  position: absolute;
+  width: 62px;
+  height: 51px;
+  top: -74px;
+  left: 50%;
+  margin-left: -31px;
+  background: url('../images/button-razrabotka-small.png') center center no-repeat;
+}
+
+.button-soprovozhdenie-small:before{
+  content: '';
+  position: absolute;
+  width: 68px;
+  height: 59px;
+  top: -82px;
+  left: 50%;
+  margin-left: -34px;
+  background: url('../images/button-soprovozhdenie-small.png') center center no-repeat;
+}
+
+.button-proektirovanie-small:before{
+  content: '';
+  position: absolute;
+  width: 74px;
+  height: 46px;
+  top: -69px;
+  left: 50%;
+  margin-left: -37px;
+  background: url('../images/button-proektirovanie-small.png') center center no-repeat;
+}
+
+.button-analitika-small:before{
+  content: '';
+  position: absolute;
+  width: 76px;
+  height: 44px;
+  top: -67px;
+  left: 50%;
+  margin-left: -38px;
+  background: url('../images/button-analitika-small.png') center center no-repeat;
+}
+
+.services-workflow{
+  position: relative;
+  margin-top: 71px;
+}
+.services-workflow:before{
+  content: '';
+  position: absolute;
+  width: 50px;
+  top:-61px;
+  left:50%;
+  margin-left: -25px;
+  height: 2px;
+  background: #da3039;
+}
+
 
 
 

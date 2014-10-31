@@ -106,10 +106,10 @@
 	          <div class="uslugi-point p4"></div>
             </div>
             <ul class="list-inline uslugi-main-buttons">
-              <li class="col-xs-3 active"><a href="#to-razrabotka" class="button-razrabotka active">Разработка</a></li>
-              <li class="col-xs-3"><a href="#to-soprovozhdenie" class="button-soprovozhdenie active">Сопровождение</a></li>
-              <li class="col-xs-3"><a href="#to-proektirovanie" class="button-proektirovanie active">Проектирование</a></li>
-              <li class="col-xs-3"><a href="#to-analitika" class="button-analitika active">Аналитика</a></li>
+              <li class="col-xs-3"><a href="#to-razrabotka" class="button-razrabotka active">Разработка</a></li>
+              <li class="col-xs-3"><a href="#to-soprovozhdenie" class="button-soprovozhdenie">Сопровождение</a></li>
+              <li class="col-xs-3"><a href="#to-proektirovanie" class="button-proektirovanie">Проектирование</a></li>
+              <li class="col-xs-3"><a href="#to-analitika" class="button-analitika">Аналитика</a></li>
             </ul>
           </div>
           <!-- разработка, сопровождение, проектирвоание, аналитика -->
@@ -117,7 +117,7 @@
       </div>
     </div>
   </header>
-  <div class="uslugi-section-description"><?/* style="position:relative;"><div style="position:absolute; width:123px; height:75px; background:green; left:46%; top:0;"></div>*/?>
+  <div class="uslugi-section-description">
     <div class="container">
       <p class="uslugi-text">Мы проектируем и создаем сайты как единую систему для решения поставленных заказчиком<br> задач. Глубоко погружаемся в проект, каждую страницу рассматриваем как интерфейс,<br> требующий проработки контента. Сразу продумываем рекламные кампании.</p>
       <p>
@@ -125,9 +125,26 @@
       </p>
     </div>
   </div>
+  
   <div class="services-site-creating" id="services-site-creating">
+    <div class="panel-services-menu">
+	  <div class="panel-services-menu-red">
+        <div class="container">
+	      <div class="uslugi-buttons-panel">
+		    <ul class="list-inline uslugi-buttons-small clearfix">
+		      <li class="col-xs-3"><a href="#" class="button-razrabotka-small">Разработка</a></li>
+		      <li class="col-xs-3"><a href="#" class="button-soprovozhdenie-small">Сопровождение</a></li>
+		      <li class="col-xs-3"><a href="#" class="button-proektirovanie-small">Проектирование</a></li>
+		      <li class="col-xs-3"><a href="#" class="button-analitika-small">Аналитика</a></li>
+		    </ul>
+	      </div>
+        </div>
+	  </div>
+    </div>
     <div class="h2">Разработка</div>
-    <div class="services-workflow"><!--img src=""--></div>
+    <div class="services-workflow">
+      <img src="./images/services-algorithm.png">
+    </div>
     <div class="panel panel-black">
       <div class="h3">Технологии</div>
       <ul class="list-inline list-technologies">
@@ -152,6 +169,7 @@
       <div class="col-xs-6">Интернет-магазин</div>
     </div>
   </div>
+  
 </div>
 <footer>
 
