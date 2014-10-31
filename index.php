@@ -33,27 +33,27 @@
     <div class="tab-pane fade in active" id="top-slider-1">
       <div class="container">
         <div class="jumbotron">
-          <p class="h1">Hello, world!</p>
+          <p class="h1 black-h1">Скидка 25%</p>
           <p>с высокой конверсией всего за</p>
-          <p class="price">99 900 рублей</p>
-          <p><a class="btn btn-primary btn-lg" role="button">Подробнее</a></p>
+          <p>99 900 рублей</p>
+          <p><a class="btn btn-black-red btn-lg btn-172" role="button">Подробнее</a></p>
         </div>
       </div>
     </div>
     <div class="tab-pane fade in" id="top-slider-2">
       <div class="container">
         <div class="jumbotron">
-          <p class="h1">Hello, world!</p>
-          <p>с высокой конверсией всего за</p>
-          <p>99 900 рублей</p>
-          <p><a class="btn btn-primary btn-lg" role="button">Подробнее</a></p>
+          <p class="h1 white-h1">Интернет-магазин</p>
+          <p class="slider-description">с высокой конверсией всего за</p>
+          <p class="price"><span class="price-number">99 900</span> рублей</p>
+          <p><a class="btn btn-white-red btn-lg" role="button">Подробнее</a></p>
         </div>
       </div>
     </div>
     <div class="tab-pane fade in" id="top-slider-3">
       <div class="container">
         <div class="jumbotron">
-          <p class="h1">Hello, world!</p>
+          <p class="h1 ">Hello, world!</p>
           <p>с высокой конверсией всего за</p>
           <p>99 900 рублей</p>
           <p><a class="btn btn-primary btn-lg" role="button">Подробнее</a></p>
@@ -71,13 +71,13 @@
       </div>
     </div>
   </div>
-  <div class="tab-list">
+  <div class="tab-list slider-buttons">
     <div class="container">
       <ul class="list-inline" role="tablist">
-        <li class="col-xs-3 active"><a href="#top-slider-1" role="tab" data-toggle="tab">Скидка 25%</a></li>
-        <li class="col-xs-3"><a href="#top-slider-2" role="tab" data-toggle="tab">Интернет-магазин</a></li>
-        <li class="col-xs-3"><a href="#top-slider-3" role="tab" data-toggle="tab">Рекордсмены</a></li>
-        <li class="col-xs-3"><a href="#top-slider-4" role="tab" data-toggle="tab">Лидеры</a></li>
+        <li class="col-xs-3 active"><a href="#top-slider-1" role="tab" data-toggle="tab" class="tab-sale-icon">Скидка 25%</a></li>
+        <li class="col-xs-3"><a href="#top-slider-2" role="tab" data-toggle="tab" class="tab-shop-icon">Интернет-магазин</a></li>
+        <li class="col-xs-3"><a href="#top-slider-3" role="tab" data-toggle="tab" class="tab-records-icon">Рекордсмены</a></li>
+        <li class="col-xs-3"><a href="#top-slider-4" role="tab" data-toggle="tab" class="tab-leaders-icon">Лидеры</a></li>
       </ul>
     </div>
   </div>
@@ -85,27 +85,44 @@
 <div class="company-stats">
   <div class="container">
     <ul class="list-inline">
-      <li class="col-xs-4"><span class="black-comma">78</span> довольных клиентов</li>
-      <li class="col-xs-4"><span>116</span> действующих проектов</li>
-      <li class="col-xs-4"><span>78</span> работ в портфолио</li>
+      <li class="col-xs-4"><span class="black-comma">78</span> <span class="stats-description">довольных клиентов</span></li>
+      <li class="col-xs-4"><span class="black-comma short-black-comma">116</span> действующих проектов</li>
+      <li class="col-xs-4"><span class="black-comma">78</span> работ в портфолио</li>
     </ul>
   </div>
 </div>
 <div class="services" id="uslugi">
-  <header class="panel panel-red">
+  <header class="panel-red-big">
     <div class="container">
       <div class="jumbotron">
         <div class="h1">Услуги</div>
         <div class="panel-preview">Мы растущая компания, которая фокусируется<br> на разработке, проектировании, поддержке сайтов</div>
         <div class="panel-legend">
+          <div class="container">
+            <div class="uslugi-legend-map">
+	          <div class="uslugi-point active"></div>
+	          <div class="uslugi-point p2"></div>
+	          <div class="uslugi-point p3"></div>
+	          <div class="uslugi-point p4"></div>
+            </div>
+            <ul class="list-inline uslugi-main-buttons">
+              <li class="col-xs-3 active"><a href="#to-razrabotka" class="button-razrabotka active">Разработка</a></li>
+              <li class="col-xs-3"><a href="#to-soprovozhdenie" class="button-soprovozhdenie active">Сопровождение</a></li>
+              <li class="col-xs-3"><a href="#to-proektirovanie" class="button-proektirovanie active">Проектирование</a></li>
+              <li class="col-xs-3"><a href="#to-analitika" class="button-analitika active">Аналитика</a></li>
+            </ul>
+          </div>
           <!-- разработка, сопровождение, проектирвоание, аналитика -->
         </div>
       </div>
     </div>
   </header>
-  <div class="section-description">
+  <div class="uslugi-section-description"><?/* style="position:relative;"><div style="position:absolute; width:123px; height:75px; background:green; left:46%; top:0;"></div>*/?>
     <div class="container">
-      <p>Awesome text</p>
+      <p class="uslugi-text">Мы проектируем и создаем сайты как единую систему для решения поставленных заказчиком<br> задач. Глубоко погружаемся в проект, каждую страницу рассматриваем как интерфейс,<br> требующий проработки контента. Сразу продумываем рекламные кампании.</p>
+      <p>
+	    <a href="#" class="btn btn-black-red btn-lg btn-244">Подробнее</a>
+      </p>
     </div>
   </div>
   <div class="services-site-creating" id="services-site-creating">
