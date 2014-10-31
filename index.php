@@ -10,7 +10,6 @@
   <link href="css/1.0.0.css" rel="stylesheet">
 </head>
 <body>
-<div style="position:absolute;bottom:19px; left:47%; height:21px; width:150px; background:green;"></div>
 <header class="header">
   <div class="navbar navbar-inverse " role="navigation"><!--navbar-fixed-top-->
     <div class="container">
@@ -145,12 +144,11 @@
     </div>
   
   <div class="services-site-creating" id="services-site-creating">
-    
     <div class="h2 bottom-red-line">Разработка</div>
     <div class="services-workflow">
-      <img src="./images/services-algorithm.png">
+      <img src="./images/services-algorithm.png" alt="">
     </div>
-    <div class="panel panel-black">
+    <div class="panel-black panel-tecnologies">
       <div class="h3">Технологии</div>
       <ul class="list-inline list-technologies">
         <li><span class="icon icon-html5"></span></li>
@@ -159,7 +157,7 @@
         <li><span class="icon icon-javascript"></span></li>
         <li><span class="icon icon-php"></span></li>
         <li><span class="icon icon-sql"></span></li>
-        <li><span class="icon icon-schema"></span></li>
+        <li><span class="icon icon-schema">schema.org</span></li>
       </ul>
     </div>
     <div class="panel panel-red">
@@ -174,7 +172,7 @@
       <div class="col-xs-6">Интернет-магазин</div>
     </div>
   </div>
-  
+        <div style="position:absolute; top:0px; left:47%; height:30px; width:150px; background:green;"></div>
 </div>
 <footer>
 

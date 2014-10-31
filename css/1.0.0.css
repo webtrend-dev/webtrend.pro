@@ -30,11 +30,18 @@
 }
 html {}
 body {}
-.h2{
+.h2, .h3{
   font-family: 'Helvetica-6-Medium';
+  text-transform: uppercase;
+}
+.h2{
   font-size: 21px;
   color:#231f20;
-  text-transform: uppercase;
+}
+.h3{
+  font-size: 17px;
+  color:#fff;
+  margin-top: 27px;
 }
 .bottom-red-line{
   position: relative;
@@ -592,12 +599,56 @@ background: -o-linear-gradient(left, #000 33%, transparent 34%, transparent 44%,
 }
 
 .services-workflow{
-  margin-top: 71px;
+  margin: 71px 0 40px;
 }
-
-
-
-
+.panel-tecnologies{
+  background: #020202 url('../images/panel-tecnologies-black.gif') center center no-repeat;
+  border: 1px solid transparent;
+}
+.list-technologies li{
+  vertical-align: middle;
+  padding: 0 0.57%
+}
+.list-technologies .icon{
+  background: #020202 url('../images/sprite-services-technologies.png') no-repeat;
+  display: block;
+}
+.icon-html5{
+  width:43px;
+  height: 58px;
+  background-position: 0px -8px ! important;
+}
+.icon-css3{
+  width:42px;
+  height: 59px;
+  background-position: -43px -7px  ! important;
+}
+.icon-axure{
+  width:51px;
+  height: 62px;
+  background-position: -85px -4px ! important;
+}
+.icon-javascript{
+  width:76px;
+  height: 66px;
+  background-position: -136px 0 ! important;
+}
+.icon-php{
+  width:79px;
+  height: 38px;
+  background-position: -212px -28px ! important;
+}
+.icon-sql{
+  width:81px;
+  height: 36px;
+  background-position: -291px -30px ! important;
+}
+.icon-schema{
+  background: none !important;
+  font-family: 'Helvetica-6-Medium';
+  font-size: 13px;
+  color:#fff;
+}
 
 
 
