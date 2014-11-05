@@ -160,22 +160,36 @@
         <li><span class="icon icon-schema">schema.org</span></li>
       </ul>
     </div>
-    <div class="panel-red panel-partners" style="position:relative;">
-      <div class="h3">Партнеры</div><div style="position:absolute; top:0px; left:47%; height:8px; width:150px; background:green;"></div>
+    <div class="panel-red panel-partners">
+      <div class="h3">Партнеры</div>
       <ul class="list-inline list-partners">
         <li><span class="icon icon-umi">золотой партнер</span></li>
         <li><span class="icon icon-bitrix"></span></li>
       </ul>
     </div>
-    <div class="container">
-      <div class="col-xs-6">Сайты услуг</div>
-      <div class="col-xs-6">Интернет-магазин</div>
+    <div class="services-description">
+      <div class="container">
+        <div class="col-xs-6 services-description-column">
+          <div class="h4 saiti-uslug">Сайты услуг</div>
+          <p class="services-desc-text">Заказав сайт у нас, вы можете быть уверены — этот ресурс станет не только визитной карточкой вашей компании, но и  — эффективным инструментом, неизменно приносящим новых клиентов и процветание бизнесу. </p>
+          <div class="services-link-portfolio"><a href="#" class="red-link">Посмотреть в портфолио</a></div>
+          <div class="services-link-dogovor"><a href="#" class="black-link">Скачать договор</a></div>
+          <a href="#" class="btn btn-black-red know-prices">Узнать цены</a>
+        </div>
+        <div class="col-xs-6 services-description-column">
+          <div class="h4 internet-magazin">Интернет-магазин</div>
+          <p class="services-desc-text">Создавая интернет-магазин в Web-trend, ресурс, который осуществляет продажи на протяжении 24 часов в сутки, 7 дней в неделю, вы вкладываете будущее. Интернет-магазин работает на вас, даже когда вы отдыхаете.</p>
+          <div class="services-link-portfolio"><a href="#" class="red-link">Посмотреть в портфолио</a></div>
+          <div class="services-link-dogovor"><a href="#" class="black-link">Скачать договор</a></div>
+          <a href="#" class="btn btn-black-red know-prices">Узнать цены</a>
+        </div>
+      </div>
     </div>
   </div>
-        
+<div style="position:absolute; top:0px; left:47%; height:69px; width:150px; background:green;"></div>        
 </div>
 <footer>
-
+  
 </footer>
   <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
   <script src="js/bootstrap.min.js"></script>

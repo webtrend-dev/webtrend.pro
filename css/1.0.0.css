@@ -36,7 +36,7 @@
 }
 html {}
 body {}
-.h2, .h3{
+.h2, .h3, .h4{
   font-family: 'Helvetica-6-Medium';
   text-transform: uppercase;
 }
@@ -49,6 +49,10 @@ body {}
   color:#fff;
   margin-top: 27px;
   margin-bottom: 21px;
+}
+.h4{
+  font-size: 17px;
+  color:#231f20;
 }
 .bottom-red-line{
   position: relative;
@@ -164,6 +168,7 @@ body {}
   font-family: 'Helvetica-4-Light';
   font-size: 14px;
   text-transform: uppercase;
+  line-height: 47px;
 }
 .btn-white-red{/* кнопка с белой рамкой с разрывом красного цвета на слайдере */
   position: relative;
@@ -180,9 +185,9 @@ body {}
   width: 100%;
   height:2px;
   background: -webkit-linear-gradient(left, #fff 33%, transparent 34%, transparent 44%, #d31720 45%, #d31720 56%, transparent 57%, transparent 67%, #fff 68%, #fff 100%);
-background: -moz-linear-gradient(left, #fff 33%, transparent 34%, transparent 44%, #d31720 45%, #d31720 56%, transparent 57%, transparent 67%, #fff 68%, #fff 100%);
-background: -ms-linear-gradient(left, #fff 33%, transparent 34%, transparent 44%, #d31720 45%, #d31720 56%, transparent 57%, transparent 67%, #fff 68%, #fff 100%);
-background: -o-linear-gradient(left, #fff 33%, transparent 34%, transparent 44%, #d31720 45%, #d31720 56%, transparent 57%, transparent 67%, #fff 68%, #fff 100%);
+  background: -moz-linear-gradient(left, #fff 33%, transparent 34%, transparent 44%, #d31720 45%, #d31720 56%, transparent 57%, transparent 67%, #fff 68%, #fff 100%);
+  background: -ms-linear-gradient(left, #fff 33%, transparent 34%, transparent 44%, #d31720 45%, #d31720 56%, transparent 57%, transparent 67%, #fff 68%, #fff 100%);
+  background: -o-linear-gradient(left, #fff 33%, transparent 34%, transparent 44%, #d31720 45%, #d31720 56%, transparent 57%, transparent 67%, #fff 68%, #fff 100%);
 }
 .btn-black-red{/* кнопка с черной рамкой с разрывом красного цвета на слайдере */
   position: relative;
@@ -205,11 +210,12 @@ background: -o-linear-gradient(left, #000 33%, transparent 34%, transparent 44%,
 }
 .btn-172{
   padding: 0px 42px;
-  line-height: 47px;
 }
 .btn-244{
   padding: 0px 78px;
-  line-height: 47px;
+}
+.know-prices{
+  padding: 0px 72px;
 }
 
 .slider-buttons .container{
@@ -693,10 +699,62 @@ background: -o-linear-gradient(left, #000 33%, transparent 34%, transparent 44%,
   height: 48px;
   background-position: 0 0 ! important;
 }
-
-
-
-
+.services-description{
+  padding: 66px 0 69px;
+}
+.services-description-column{
+  padding-left: 25px;
+  padding-right: 25px;
+}
+.services-description-column:nth-child(2n+1){
+  padding-right: 0;
+}
+.services-description-column:nth-child(2n){
+  padding-left: 0;
+}
+.services-description-column .h4{
+  margin: 0;
+}
+.services-description-column .h4:before{
+  content: '';
+  display: block;
+  background: url('../images/sprite-services-description.png') no-repeat;
+  height: 98px;
+  margin: 0 auto 39px;
+}
+.saiti-uslug:before{
+  width: 101px;
+  background-position: 0 0 !important;
+}
+.internet-magazin:before{
+  width: 107px;
+  background-position: -101px -1px !important;
+}
+.services-desc-text{
+  margin: 28px 0 27px;
+  font-family: 'Helvetica-4-Light';
+  font-size: 15px;
+  color:#231f20;
+  text-align: left;
+  letter-spacing: 0.45px;
+}
+.services-link-portfolio{
+  margin-bottom: 4px;
+}
+.services-link-portfolio a{
+  font-family: 'Helvetica-6-Medium';
+  font-size: 14px;
+  color:#da3036;
+  text-transform: uppercase;
+}
+.services-link-dogovor{
+  margin-bottom: 28px;
+}
+.services-link-dogovor a{
+  font-family: 'Helvetica-6-Medium';
+  font-size: 14px;
+  color: #272727;
+}
 
 
 
