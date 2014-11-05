@@ -160,11 +160,11 @@
         <li><span class="icon icon-schema">schema.org</span></li>
       </ul>
     </div>
-    <div class="panel panel-red">
-      <div class="h3">Партнеры</div>
+    <div class="panel-red panel-partners" style="position:relative;">
+      <div class="h3">Партнеры</div><div style="position:absolute; top:0px; left:47%; height:8px; width:150px; background:green;"></div>
       <ul class="list-inline list-partners">
-        <li><span class="icon icon-umi"></span></li>
-        <li class="icon icon-bitrix"></li>
+        <li><span class="icon icon-umi">золотой партнер</span></li>
+        <li><span class="icon icon-bitrix"></span></li>
       </ul>
     </div>
     <div class="container">
@@ -172,7 +172,7 @@
       <div class="col-xs-6">Интернет-магазин</div>
     </div>
   </div>
-        <div style="position:absolute; top:0px; left:47%; height:30px; width:150px; background:green;"></div>
+        
 </div>
 <footer>
 

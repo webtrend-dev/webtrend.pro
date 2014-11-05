@@ -665,6 +665,36 @@ background: -o-linear-gradient(left, #000 33%, transparent 34%, transparent 44%,
   font-size: 13px;
   color:#fff;
 }
+.panel-partners{
+  background: #da3039;
+  border: 1px solid transparent;
+}
+.list-partners{
+  margin:0 0 20px;
+}
+.list-partners li{
+  padding: 0px 0.3% 0 4.2%;
+}
+.list-partners .icon{
+  background: url('../images/sprite-services-partners.png') no-repeat;
+  display: block;
+}
+.icon-umi{
+  width: 182px;
+  height: 53px;
+  background-position: 0 -48px ! important;
+  font-family: 'Helvetica-6-Medium';
+  font-size: 13px;
+  color: #fff;
+  padding: 34px 0 0 73px;
+}
+.icon-bitrix{
+  width: 248px;
+  height: 48px;
+  background-position: 0 0 ! important;
+}
+
+
 
 
 
