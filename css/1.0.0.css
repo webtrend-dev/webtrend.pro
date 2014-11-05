@@ -28,6 +28,12 @@
        url('../fonts/Helvetica-3-Thin.ttf')  format('truetype'),
        url('../fonts/Helvetica-3-Thin.svg#Helvetica-3-Thin') format('svg');
 }
+@media (min-width: 1200px){
+  .container{
+    width:1000px;
+    padding: 0;
+  }	
+}
 html {}
 body {}
 .h2, .h3{
@@ -42,6 +48,7 @@ body {}
   font-size: 17px;
   color:#fff;
   margin-top: 27px;
+  margin-bottom: 21px;
 }
 .bottom-red-line{
   position: relative;
@@ -605,9 +612,18 @@ background: -o-linear-gradient(left, #000 33%, transparent 34%, transparent 44%,
   background: #020202 url('../images/panel-tecnologies-black.gif') center center no-repeat;
   border: 1px solid transparent;
 }
+.list-technologies{
+  margin:0 0 44px;
+}
 .list-technologies li{
   vertical-align: middle;
-  padding: 0 0.57%
+  padding: 0 1.3%
+}
+.list-technologies li:first-of-type{
+  padding-left: 0;
+}
+.list-technologies li:last-of-type{
+  padding-right: 0;
 }
 .list-technologies .icon{
   background: #020202 url('../images/sprite-services-technologies.png') no-repeat;
