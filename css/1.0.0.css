@@ -756,6 +756,54 @@ background: -o-linear-gradient(left, #000 33%, transparent 34%, transparent 44%,
   color: #272727;
 }
 
+/* -- footer --*/
+footer{
+  background: #282828;
+  color: #fff;
+}
+.footer-columns-block:before{
+  display: block;
+  content: '';
+  width: 54px;
+  height: 54px;
+  background: #da3039 url('../images/logo-webtrend.png') center center no-repeat;
+  margin-bottom: 23px;
+}
+
+.footer-column-title{
+  font-family: 'Helvetica-6-Medium';
+  font-size: 21px;
+  text-transform: uppercase;
+  margin-bottom:27px;
+}
+.title-ask-question{
+  margin-bottom:10px;
+}
+.footer-webtrend-address{
+  font-family: 'Helvetica-6-Medium';
+  font-size: 15px;
+}
+.footer-webtrend-phone{
+  font-family: 'Helvetica-4-Light';
+  font-size:21px;
+  text-transform: uppercase;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

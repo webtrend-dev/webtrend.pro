@@ -186,10 +186,47 @@
       </div>
     </div>
   </div>
-<div style="position:absolute; top:0px; left:47%; height:69px; width:150px; background:green;"></div>        
+      
 </div>
-<footer>
+<footer style="position:relative"><div style="position:absolute; top:0px; left:47%; height:29px; width:150px; background:green;"></div>  
+  <div class="container">
+    <div class="footer-columns-block">
+      <ul class="list-inline footer-columns">
+        <li class="col-xs-4 footer-webtrend">
+	      <div class="footer-column-title">Webtrend</div>
+	      <p class="footer-webtrend-address">
+		    ул. Ленинская Слобода, д.19
+	      </p>
+	      <p class="footer-webtrend-phone">
+            ТЕЛ. +7 (499) 390-23-83
+	      </p>
+        </li>
+        <li class="col-xs-4 footer-menu">
+	      <div class="footer-column-title">Меню</div>
+	      <div class="col-xs-6 footer-menu-list">
+	        <ul class="footer-links-block">
+	          <li><a href="#uslugi">Услуги</a></li>
+	          <li><a href="#o-kompanii">О компании</a></li>
+	          <li><a href="#portfolio">Портфолио</a></li>
+	        </ul>
+	      </div>
+	      <div class="col-xs-6 footer-menu-list">
+	        <ul class="footer-links-block">
+	          <li><a href="#uslugi">Блог</a></li>
+	          <li><a href="#o-kompanii">Вакансии</a></li>
+	          <li><a href="#portfolio">Контакты</a></li>
+	        </ul>
+	      </div>
+        </li>
+        <li class="col-xs-4 footer-ask-question">
+	      <div class="footer-column-title title-ask-question">Задать вопрос</div>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom">
   
+  </div>
 </footer>
   <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
