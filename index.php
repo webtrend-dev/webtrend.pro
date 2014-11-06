@@ -85,7 +85,7 @@
 </div>
 <div class="company-stats">
   <div class="container">
-    <ul class="list-inline">
+    <ul class="list-inline clearfix">
       <li class="col-xs-4"><span class="black-comma">78</span> <span class="stats-description">довольных клиентов</span></li>
       <li class="col-xs-4"><span class="black-comma short-black-comma">116</span> действующих проектов</li>
       <li class="col-xs-4"><span class="black-comma">78</span> работ в портфолио</li>
@@ -187,6 +187,48 @@
       </div>
     </div>
   </div>
+  
+  <div class="panel-services-menu">
+	<div class="panel-services-menu-red">
+      <div class="container">
+        <div class="uslugi-buttons-panel">
+	      <div class="container">
+		    <ul class="list-inline uslugi-buttons-small">
+              <li class="col-xs-3"><a href="#" class="button-razrabotka-small">Разработка</a></li>
+		      <li class="col-xs-3"><a href="#" class="button-soprovozhdenie-small active">Сопровождение</a></li>
+		      <li class="col-xs-3"><a href="#" class="button-proektirovanie-small">Проектирование</a></li>
+		      <li class="col-xs-3"><a href="#" class="button-analitika-small">Аналитика</a></li>
+		    </ul>
+	      </div>
+	    </div>
+      </div>
+	</div>
+  </div>
+  <div class="services-site-accompaniment" id="services-site-accompaniment">
+    <div class="h2 bottom-red-line">Сопровождение</div>
+    <div class="services-workflow">
+      <img src="./images/accompaniment-algorithm.png" alt="">
+    </div>
+    <div class="accompaniment-stats">
+      <div class="container">
+        <ul class="list-inline clearfix">
+          <li class="col-xs-4">
+            <div style="
+    width: 110px;
+    height: 110px;
+    position: relative;
+    background: #020202;;
+    border-radius: 55px;
+    text-align: center;
+    float: left;
+"><span class="black-comma-big">157</span></div> <span class="stats-description">клиентов на сопровожение</span></li>
+          <li class="col-xs-4"><span class="black-comma short-black-comma">11.257</span>выполнено задач</li>
+          <li class="col-xs-4"><span class="black-comma">3.492</span>отработано часов</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  
 </div>
 <footer> 
   <div class="container">

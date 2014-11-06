@@ -322,7 +322,9 @@ background: -o-linear-gradient(left, #000 33%, transparent 34%, transparent 44%,
 }
 
 .company-stats ul{
-  line-height: 211px;
+  /*line-height: 211px;*/
+  padding: 84px 0;
+  margin: 0;
 }
 .company-stats li{
   font-family: 'Helvetica-6-Medium';
@@ -470,7 +472,7 @@ background: -o-linear-gradient(left, #000 33%, transparent 34%, transparent 44%,
   background: url('../images/button-razrabotka-big.png') center center no-repeat;
 }
 .button-razrabotka.active:before{
-  top: -157px;
+  top: -158px;
 }
 .button-soprovozhdenie{
   margin-right: 5%;
@@ -599,7 +601,9 @@ background: -o-linear-gradient(left, #000 33%, transparent 34%, transparent 44%,
   margin-left: -34px;
   background: url('../images/button-soprovozhdenie-small.png') center center no-repeat;
 }
-
+.button-soprovozhdenie-small.active:before{
+  top: -95px;
+}
 .button-proektirovanie-small:before{
   content: '';
   position: absolute;
@@ -914,7 +918,19 @@ margin-bottom: 19px;
   background-position: -81px 0 !important;
 }
 
-
+/* services-site-accompaniment */
+.black-comma-big{
+width: 100%;
+height: 100%;
+border-radius: 55px;
+vertical-align: middle;
+line-height: 30px;
+padding: 40px 0px;
+overflow: hidden;
+font-family: 'Helvetica-3-Thin';
+font-size: 30px;
+color: #fff;
+}
 
 
 
