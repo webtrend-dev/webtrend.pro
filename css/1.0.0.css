@@ -217,6 +217,17 @@ background: -o-linear-gradient(left, #000 33%, transparent 34%, transparent 44%,
 .know-prices{
   padding: 0px 72px;
 }
+.red-button{
+  font-family: 'Helvetica-4-Light';
+  color:#fff;
+  font-size: 14px;
+  text-transform: uppercase;
+  background: #da3039;
+}
+.call-back{
+  padding: 13px 27px;
+  float: left;
+}
 
 .slider-buttons .container{
   position: relative;
@@ -761,6 +772,9 @@ footer{
   background: #282828;
   color: #fff;
 }
+.footer-columns-block{
+  padding: 0 0 73px;
+}
 .footer-columns-block:before{
   display: block;
   content: '';
@@ -769,7 +783,18 @@ footer{
   background: #da3039 url('../images/logo-webtrend.png') center center no-repeat;
   margin-bottom: 23px;
 }
-
+.footer-columns{
+  margin: 0;
+}
+.footer-columns > li{
+  padding: 0 2.5%;
+}
+.footer-columns > li:first-of-type{
+  padding: 0 2.5% 0 0;
+}
+.footer-columns > li:last-of-type{
+  padding: 0 0 0 2.5%;
+}
 .footer-column-title{
   font-family: 'Helvetica-6-Medium';
   font-size: 21px;
@@ -780,29 +805,114 @@ footer{
   margin-bottom:10px;
 }
 .footer-webtrend-address{
-  font-family: 'Helvetica-6-Medium';
+  font-family: 'Helvetica-4-Light';
   font-size: 15px;
+  margin: 0 0 9px;
 }
 .footer-webtrend-phone{
   font-family: 'Helvetica-4-Light';
   font-size:21px;
   text-transform: uppercase;
+  margin: 0 0 45px;
 }
+.footer-menu-list{
+  padding: 0;
+}
+.footer-links-block{
+  padding-left: 14px;
+}
+.footer-links-block li{
+  list-style-image: url('../images/li-image.png');
+  list-style-type: none;
+  padding: 0 10px 0 5px;
+}
+.footer-links-block li a{
+  font-family: 'Helvetica-4-Light';
+  font-size: 15px;
+  color:#fff;
+  overflow-wrap: break-word; 
+}
+.ask-two-texts {
+margin-bottom: 19px;
+}
+.ask-two-texts > div{
+  padding: 0
+}
+.footer-fio{
+  padding-right: 2.5% !important;
+}
+.footer-phone{
+  padding-left: 2.5% !important;
+}
+.footer-question{
+  margin-bottom:21px;
+}
+.footer-question > .input-text{
+  padding: 8px 5px;
+  height: 41px;
+  transition: height 0.3s ease;
+  line-height: 26px;
+  resize: none;
+}
+.footer-question > .input-text:focus{
+  height: 91px;
+}
+.input-text{
+  border:1px solid #c8c8c8;
+  padding: 5px;
+  font-family: 'Helvetica-4-Light';
+  font-size: 15px;
+  color:#b4b4b4;
+  border-radius: 0;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+.input-text::-webkit-input-placeholder {color:#b4b4b4;}
+.input-text[placeholder]               {color:#b4b4b4;}
+.input-text::-moz-placeholder          {color:#b4b4b4;} 
+.input-text:-moz-placeholder           {color:#b4b4b4;} 
+.input-text:-ms-input-placeholder      {color:#b4b4b4;} 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.footer-bottom{
+  background: #020202;
+  padding: 26px 0;
+  line-height: 27px;
+}
+.copyright{
+  float: left;
+}
+.social-networks{
+  float: right;
+}
+.social-networks > ul{
+  margin: 0;
+  height: 27px;
+}
+.social-network{
+  padding: 0 3px;
+}
+.social-network:last-of-type{
+  padding: 0;
+}
+.social-network a{
+  float: left;
+  padding: 0 5px;
+  width: 27px;
+  height: 27px;
+  background: url('../images/sprite-social-networks.png') no-repeat;
+}
+.fb{
+  background-position: 0 0;
+}
+.tw{
+  background-position: -27px 0 !important;
+}
+.vk{
+  background-position: -54px 0 !important;
+}
+.sk{
+  background-position: -81px 0 !important;
+}
 
 
 

@@ -10,6 +10,7 @@
   <link href="css/1.0.0.css" rel="stylesheet">
 </head>
 <body>
+<div style="position:absolute; top:0px; left:47%; height:54px; width:150px; background:green;"></div> 
 <header class="header">
   <div class="navbar navbar-inverse " role="navigation"><!--navbar-fixed-top-->
     <div class="container">
@@ -186,20 +187,16 @@
       </div>
     </div>
   </div>
-      
 </div>
-<footer style="position:relative"><div style="position:absolute; top:0px; left:47%; height:29px; width:150px; background:green;"></div>  
+<footer> 
   <div class="container">
     <div class="footer-columns-block">
-      <ul class="list-inline footer-columns">
+      <ul class="list-inline footer-columns clearfix">
         <li class="col-xs-4 footer-webtrend">
 	      <div class="footer-column-title">Webtrend</div>
-	      <p class="footer-webtrend-address">
-		    ул. Ленинская Слобода, д.19
-	      </p>
-	      <p class="footer-webtrend-phone">
-            ТЕЛ. +7 (499) 390-23-83
-	      </p>
+	      <p class="footer-webtrend-address">ул. Ленинская Слобода, д.19</p>
+	      <p class="footer-webtrend-phone">ТЕЛ. +7 (499) 390-23-83</p>
+	      <a href="#call-back" class="red-button call-back clearfix">Заказать звонок</a>
         </li>
         <li class="col-xs-4 footer-menu">
 	      <div class="footer-column-title">Меню</div>
@@ -220,12 +217,31 @@
         </li>
         <li class="col-xs-4 footer-ask-question">
 	      <div class="footer-column-title title-ask-question">Задать вопрос</div>
+	      <div class="clearfix ask-two-texts">
+	        <div class="col-xs-6 footer-fio"><input type="text" class="form-control input-text" placeholder="ФИО*"></div>
+	        <div class="col-xs-6 footer-phone"><input type="text" class="form-control input-text" placeholder="Телефон*"></div>
+	      </div>
+	      <div class="footer-question">
+	        <textarea class="form-control input-text" placeholder="Вопрос*" ></textarea>
+	        <!--<input type="text" class="form-control input-text" placeholder="Вопрос*"> onfocus="this.rows='3'" -->
+	      </div>
+	      <a href="#sell" class="red-button call-back clearfix">Отправить</a>
         </li>
       </ul>
     </div>
   </div>
   <div class="footer-bottom">
-  
+    <div class="container">
+      <div class="copyright"><span>Copyright © 2014 По общим вопросам order@webtrend.pro</span></div>
+      <div class="social-networks">
+	    <ul class="list-inline">
+	      <li class="social-network"><a href="#" class="fb"></a></li>
+	      <li class="social-network"><a href="#" class="tw"></a></li>
+	      <li class="social-network"><a href="#" class="vk"></a></li>
+	      <li class="social-network"><a href="#" class="sk"></a></li>
+	    </ul>
+      </div>  
+    </div>
   </div>
 </footer>
   <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
