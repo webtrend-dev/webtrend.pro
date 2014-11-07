@@ -10,7 +10,7 @@
   <link href="css/1.0.0.css" rel="stylesheet">
 </head>
 <body>
-<div style="position:absolute; top:0px; left:47%; height:54px; width:150px; background:green;"></div> 
+
 <header class="header">
   <div class="navbar navbar-inverse " role="navigation"><!--navbar-fixed-top-->
     <div class="container">
@@ -209,25 +209,64 @@
     <div class="services-workflow">
       <img src="./images/accompaniment-algorithm.png" alt="">
     </div>
-    <div class="accompaniment-stats">
+    <div class="accompaniment-stats"> 
       <div class="container">
         <ul class="list-inline clearfix">
           <li class="col-xs-4">
-            <div style="
-    width: 110px;
-    height: 110px;
-    position: relative;
-    background: #020202;;
-    border-radius: 55px;
-    text-align: center;
-    float: left;
-"><span class="black-comma-big">157</span></div> <span class="stats-description">клиентов на сопровожение</span></li>
-          <li class="col-xs-4"><span class="black-comma short-black-comma">11.257</span>выполнено задач</li>
-          <li class="col-xs-4"><span class="black-comma">3.492</span>отработано часов</li>
+            <div class="comma-big-outer"><span class="comma-big-inner">157</span></div>
+            <span class="accompaniment-stats-description">клиентов<br> на сопровожение</span>
+          </li>
+          <li class="col-xs-4">
+            <div class="comma-big-outer"><span class="comma-big-inner">11.257</span></div>
+            <span class="accompaniment-stats-description">выполнено<br> задач</span>
+          </li>
+          <li class="col-xs-4">
+            <div class="comma-big-outer"><span class="comma-big-inner">3.492</span></div>
+            <span class="accompaniment-stats-description">отработано<br> часов</span>
+          </li>
         </ul>
       </div>
     </div>
+    <div class="panel-accompaniment-black">
+      <div class="container">
+        <p>Мы занимается не только созданием сайтов, но также осуществляем дальнейшее сопровождение ресурса и его постоянную техническую поддержку.</p>
+        <p>Услуги по техподдержке сайтов избавят вас от необходимости держать штат специалистов — наполнением, администрированием, дизайном и анализом ресурса, а также другими задачами, необходимыми для его успешной работы, будет заниматься целая команда профессионалов.</p>
+        <div class="accompaniment-description-title">ПО НЕОБХОДИМОСТИ РАБОТЫ ПО ВАШЕМУ САЙТУ<br> ВЫПОЛНЯЕТ ЦЕЛАЯ КОМАНДА:</div>
+        <div class="accompaniment-team-block">
+	      <ul class="list-inline accompaniment-team">
+	        <li><span class="icon-designer">Дизайнер</span></li>
+	        <li><span class="icon-illustrator">Иллюстратор</span></li>
+	        <li><span class="icon-verstalschik">Верстальщик</span></li>
+	        <li><span class="icon-analitik">Аналитик</span></li>
+	        <li><span class="icon-programmer">Программист</span></li>
+	        <li><span class="icon-copywriter">Копирайтер</span></li>
+	        <li><span class="icon-optimizer">Оптимизатор</span></li>
+	      </ul>
+        </div>
+      </div>
+    </div>
+    
+    <div class="services-description accompaniment-description">
+      <div class="container">
+        <div class="col-xs-6 accompaniment-description-column">
+          <div class="h4">Оптимальный пакет</div>
+          <p class="services-desc-text">Тариф для компаний, которым важна регулярная работа над обновлением контента сайта, а так же всесторонняя техническая поддержка.</p>
+          <div class="services-link-portfolio"><a href="#" class="red-link">Посмотреть набор услуг</a></div>
+          <div class="services-link-dogovor"><a href="#" class="black-link">Скачать договор</a></div>
+          <a href="#order" class="btn btn-black-red know-prices">Заказать</a>
+        </div>
+        <div class="col-xs-6 accompaniment-description-column">
+          <div class="h4">Безлимитный пакет</div>
+          <p class="services-desc-text">Тариф, в первую очередь нацеленный на увеличение продаж с сайта (подходит для интернет-магазинов). Включает в себя комплексное обновление контента и техническую поддержку.</p>
+          <div class="services-link-portfolio"><a href="#" class="red-link">Посмотреть набор услуг</a></div>
+          <div class="services-link-dogovor"><a href="#" class="black-link">Скачать договор</a></div>
+          <a href="#order" class="btn btn-black-red know-prices">Заказать</a>
+        </div>
+      </div>
+    </div>
+    
   </div>
+ <div style="position:absolute; top:0px; left:47%; height:25px; width:150px; background:green;"></div> 
   
 </div>
 <footer> 
