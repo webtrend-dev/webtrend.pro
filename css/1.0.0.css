@@ -662,7 +662,9 @@ background: -o-linear-gradient(left, #000 33%, transparent 34%, transparent 44%,
   margin-left: -38px;
   background: url('../images/button-analitika-small.png') center center no-repeat;
 }
-
+.button-analitika-small.active:before{
+  top: -80px;
+}
 .services-workflow{
   margin: 71px 0 40px;
 }

@@ -302,7 +302,7 @@
       </div>
 	</div>
   </div>
-  <div class="services-engineering" id="services-engineering" style="position: relative;">
+  <div class="services-engineering" id="services-engineering">
     <div class="h2 bottom-red-line">Проектирование</div>
     <div class="services-engineering-text">
       <div class="container">От того, насколько профессионально будет спроектирован сайт компании, зависит успешность и эффективность дальнейшей эксплуатации ресурса и та польза, которую он принесет его владельцу. Поэтому компания Webtrend комплексно подходит к реализации заказов по проектированию сайтов, выделяя для этого все необходимые ресурсы и лучшие возможности своей команды.
@@ -324,9 +324,47 @@
         <a href="order-consultation" class="btn btn-white-black order-consultation">Заказать консультацию</a>
       </div>
     </div>
-    <div style="position:absolute; height:33px;  left:47%; top:0px;  width:200px; background:green;"></div>
   </div>
+ <div style="position:absolute; height:33px;  left:47%; top:0px;  width:200px; background:green;"></div> 
   
+  <div class="panel-services-menu">
+	<div class="panel-services-menu-red">
+      <div class="container">
+        <div class="uslugi-buttons-panel">
+	      <div class="container">
+		    <ul class="list-inline uslugi-buttons-small">
+              <li class="col-xs-3"><a href="#" class="button-razrabotka-small">Разработка</a></li>
+		      <li class="col-xs-3"><a href="#" class="button-soprovozhdenie-small">Сопровождение</a></li>
+		      <li class="col-xs-3"><a href="#" class="button-proektirovanie-small">Проектирование</a></li>
+		      <li class="col-xs-3"><a href="#" class="button-analitika-small active">Аналитика</a></li>
+		    </ul>
+	      </div>
+	    </div>
+      </div>
+	</div>
+  </div>
+  <div class="services-analitics" id="services-analitics">
+    <div class="h2 bottom-red-line">Аналитика</div>
+    <div class="services-analitics-text">
+      <div class="container">
+        <p>Вы когда-нибудь задумывались о том, что делают посетители на вашем сайте, и почему заказы делает 1% посетителей, а не 5%? 
+Что нужно изменить на сайте, чтобы повысить количество заказов? Вы знаете, что сделать, чтобы реклама приносила больше прибыли?</p>
+        <p>Мы предоставляем услуги в области веб-аналитики, которые дадут ответы на эти вопросы.</p>
+      </div>
+    </div>
+    <div class="analitics-parts">
+	  <div class="container">
+	    <div class="col-xs-6">
+		  <div>Аналитика</div>
+		  <div>Установка и настройка счетчиков</div>
+	    </div>
+	    <div class="col-xs-6">
+		  <div>Тестирование сайта</div>
+		  <div>Анализ источников трафика</div>
+	    </div>
+	  </div>
+    </div>
+  </div>
   
 </div>
 <footer> 
