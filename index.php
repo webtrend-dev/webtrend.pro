@@ -250,23 +250,43 @@
       <div class="container">
         <div class="col-xs-6 accompaniment-description-column">
           <div class="h4">Оптимальный пакет</div>
-          <p class="services-desc-text">Тариф для компаний, которым важна регулярная работа над обновлением контента сайта, а так же всесторонняя техническая поддержка.</p>
+          <div class="accompaniment-price clearfix">
+	        <div class="accompaniment-price-red">
+	          <div class="accompaniment-price-thousands">9</div>
+	          <div class="accompaniment-price-point">.</div>
+	          <div class="accompaniment-price-red-right">
+	            <div class="accompaniment-price-zeros">000</div>
+	            <div class="accompaniment-currency">руб/мес</div>
+	          </div>
+	        </div>
+          </div>
+          <p class="accompaniment-desc-text">Тариф для компаний, которым важна регулярная работа над обновлением контента сайта, а так же всесторонняя техническая поддержка.</p>
           <div class="services-link-portfolio"><a href="#" class="red-link">Посмотреть набор услуг</a></div>
           <div class="services-link-dogovor"><a href="#" class="black-link">Скачать договор</a></div>
-          <a href="#order" class="btn btn-black-red know-prices">Заказать</a>
+          <a href="#order" class="btn btn-black-red to-order">Заказать</a>
         </div>
         <div class="col-xs-6 accompaniment-description-column">
           <div class="h4">Безлимитный пакет</div>
-          <p class="services-desc-text">Тариф, в первую очередь нацеленный на увеличение продаж с сайта (подходит для интернет-магазинов). Включает в себя комплексное обновление контента и техническую поддержку.</p>
+          <div class="accompaniment-price clearfix">
+	        <div class="accompaniment-price-red two-digits">
+	          <div class="accompaniment-price-thousands">25</div>
+	          <div class="accompaniment-price-point">.</div>
+	          <div class="accompaniment-price-red-right">
+	            <div class="accompaniment-price-zeros">000</div>
+	            <div class="accompaniment-currency">руб/мес</div>
+	          </div>
+	        </div>
+          </div>
+          <p class="accompaniment-desc-text">Тариф, в первую очередь нацеленный на увеличение продаж с сайта (подходит для интернет-магазинов). Включает в себя комплексное обновление контента и техническую поддержку.</p>
           <div class="services-link-portfolio"><a href="#" class="red-link">Посмотреть набор услуг</a></div>
           <div class="services-link-dogovor"><a href="#" class="black-link">Скачать договор</a></div>
-          <a href="#order" class="btn btn-black-red know-prices">Заказать</a>
+          <a href="#order" class="btn btn-black-red to-order">Заказать</a>
         </div>
       </div>
     </div>
-    
   </div>
- <div style="position:absolute; top:0px; left:47%; height:25px; width:150px; background:green;"></div> 
+ 
+  <div style="position:absolute; top:0px; left:47%; height:14px; width:150px; background:green;"></div>
   
 </div>
 <footer> 

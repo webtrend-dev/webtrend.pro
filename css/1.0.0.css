@@ -8,6 +8,16 @@
          url('../fonts/Helv-9-Black.svg#Helvetica-9-Black') format('svg');
 }
 @font-face {
+    font-family: 'Helvetica-8-Heavy';
+    src: url('../fonts/helv-8-heavy.eot');
+    src: url('../fonts/helv-8-heavy.eot') format('embedded-opentype'),
+         url('../fonts/helv-8-heavy.woff2') format('woff2'),
+         url('../fonts/helv-8-heavy.woff') format('woff'),
+         url('../fonts/helv-8-heavy.ttf') format('truetype'),
+         url('../fonts/helv-8-heavy.svg#Helvetica8Heavy') format('svg');
+}
+
+@font-face {
   font-family: 'Helvetica-6-Medium';
   src: url('../fonts/Helvetica-6-Medium.eot?') format('eot'), 
        url('../fonts/Helvetica-6-Medium.woff') format('woff'), 
@@ -216,6 +226,9 @@ background: -o-linear-gradient(left, #000 33%, transparent 34%, transparent 44%,
 }
 .know-prices{
   padding: 0px 72px;
+}
+.to-order{
+  padding: 0px 85px;
 }
 .red-button{
   font-family: 'Helvetica-4-Light';
@@ -722,10 +735,10 @@ background: -o-linear-gradient(left, #000 33%, transparent 34%, transparent 44%,
   padding-right: 25px;
 }
 .services-description-column:nth-child(2n+1){
-  padding-right: 0;
+  padding-left: 0;
 }
 .services-description-column:nth-child(2n){
-  padding-left: 0;
+  padding-right: 0;
 }
 .services-description-column .h4{
   margin: 0;
@@ -1067,17 +1080,73 @@ margin-bottom: 19px;
   padding-right: 25px;
 }
 .accompaniment-description-column:nth-child(2n+1){
-  padding-right: 0;
+  padding-left: 0;
 }
 .accompaniment-description-column:nth-child(2n){
-  padding-left: 0;
+  padding-right: 0;
 }
 .accompaniment-description-column .h4{
   margin: 0;
 }
-
-
-
+.accompaniment-price{
+  margin-top: 10px;
+}
+.accompaniment-price-red{
+  position: relative;
+  font-family: 'Helvetica-6-Medium';
+  background: #da3039;
+  color:#fff;
+  width: 26.3%;
+  height: 51px;
+  float: right;
+  margin-right: 15%;
+}
+.accompaniment-price-red:before{
+  content: '';
+  background: #da3039;
+  height: 2px;
+  width: 137px;
+  position: absolute;
+  right: 100%;
+}
+.accompaniment-price-thousands{
+  float: left;
+  font-size: 45px;
+  line-height: 51px;
+  margin: 0 4% 0 16%;
+}
+.two-digits .accompaniment-price-thousands{
+  margin: 0 1% 0 6%;
+}
+.accompaniment-price-point{
+  float: left;
+  line-height: 37px;
+  height: 100%;
+  font-family: 'Helvetica-8-Heavy';
+  font-size: 25px;
+}
+.accompaniment-price-red-right{
+  margin-right:10%;
+}
+.two-digits .accompaniment-price-red-right{
+  margin-right:5%;
+}
+.accompaniment-price-zeros{
+  font-family: 'Helvetica-8-Heavy';
+  font-size: 25px;
+  margin: 1px 0 -7px;
+}
+.accompaniment-currency{
+  font-size: 12px;
+}
+.accompaniment-desc-text{
+  margin: 19px 0 15px;
+  font-family: 'Helvetica-4-Light';
+  font-size: 15px;
+  color: #231f20;
+  text-align: left;
+  letter-spacing: 0.45px;
+}
 
 
 
