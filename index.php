@@ -285,8 +285,48 @@
       </div>
     </div>
   </div>
- 
-  <div style="position:absolute; top:0px; left:47%; height:14px; width:150px; background:green;"></div>
+  
+  <div class="panel-services-menu">
+	<div class="panel-services-menu-red">
+      <div class="container">
+        <div class="uslugi-buttons-panel">
+	      <div class="container">
+		    <ul class="list-inline uslugi-buttons-small">
+              <li class="col-xs-3"><a href="#" class="button-razrabotka-small">Разработка</a></li>
+		      <li class="col-xs-3"><a href="#" class="button-soprovozhdenie-small">Сопровождение</a></li>
+		      <li class="col-xs-3"><a href="#" class="button-proektirovanie-small active">Проектирование</a></li>
+		      <li class="col-xs-3"><a href="#" class="button-analitika-small">Аналитика</a></li>
+		    </ul>
+	      </div>
+	    </div>
+      </div>
+	</div>
+  </div>
+  <div class="services-engineering" id="services-engineering" style="position: relative;">
+    <div class="h2 bottom-red-line">Проектирование</div>
+    <div class="services-engineering-text">
+      <div class="container">От того, насколько профессионально будет спроектирован сайт компании, зависит успешность и эффективность дальнейшей эксплуатации ресурса и та польза, которую он принесет его владельцу. Поэтому компания Webtrend комплексно подходит к реализации заказов по проектированию сайтов, выделяя для этого все необходимые ресурсы и лучшие возможности своей команды.
+      </div>
+    </div>
+    <div class="services-workflow">
+      <img src="./images/engineering-algorithm.png" alt="" width="1043" height="282">
+    </div>
+    <div class="engineering-slider-case">
+	  <img src="./images/slider-case-1.jpg" alt="">
+    </div>
+    <div class="panel-red panel-services-engineering">
+      <div class="container">
+        <div class="engineering-price-block">
+          <span class="engineering-price-from">от</span>
+	      <div class="engineering-price"></div>
+	      <span class="engineering-price-currency">руб.</span>
+        </div>
+        <a href="order-consultation" class="btn btn-white-black order-consultation">Заказать консультацию</a>
+      </div>
+    </div>
+    <div style="position:absolute; height:33px;  left:47%; top:0px;  width:200px; background:green;"></div>
+  </div>
+  
   
 </div>
 <footer> 

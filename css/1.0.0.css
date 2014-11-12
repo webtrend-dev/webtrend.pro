@@ -199,6 +199,25 @@ body {}
   background: -ms-linear-gradient(left, #fff 33%, transparent 34%, transparent 44%, #d31720 45%, #d31720 56%, transparent 57%, transparent 67%, #fff 68%, #fff 100%);
   background: -o-linear-gradient(left, #fff 33%, transparent 34%, transparent 44%, #d31720 45%, #d31720 56%, transparent 57%, transparent 67%, #fff 68%, #fff 100%);
 }
+.btn-white-black{/* кнопка с белой рамкой с разрывом красного цвета на слайдере */
+  position: relative;
+  display: inline-block;
+  border: 2px solid #fff;
+  border-top-width: 0;
+  color:#fff;
+}
+.btn-white-black:before{
+  position: absolute;
+  content: '';
+  top:0;
+  left: 0;
+  width: 100%;
+  height:2px;
+  background: -webkit-linear-gradient(left, #fff 33%, transparent 34%, transparent 44%, #000 45%, #000 56%, transparent 57%, transparent 67%, #fff 68%, #fff 100%);
+  background: -moz-linear-gradient(left, #fff 33%, transparent 34%, transparent 44%, #000 45%, #000 56%, transparent 57%, transparent 67%, #fff 68%, #fff 100%);
+  background: -ms-linear-gradient(left, #fff 33%, transparent 34%, transparent 44%, #000 45%, #000 56%, transparent 57%, transparent 67%, #fff 68%, #fff 100%);
+  background: -o-linear-gradient(left, #fff 33%, transparent 34%, transparent 44%, #000 45%, #000 56%, transparent 57%, transparent 67%, #fff 68%, #fff 100%);
+}
 .btn-black-red{/* кнопка с черной рамкой с разрывом красного цвета на слайдере */
   position: relative;
   display: inline-block;
@@ -229,6 +248,9 @@ background: -o-linear-gradient(left, #000 33%, transparent 34%, transparent 44%,
 }
 .to-order{
   padding: 0px 85px;
+}
+.order-consultation{
+  padding: 0px 25px;
 }
 .red-button{
   font-family: 'Helvetica-4-Light';
@@ -627,7 +649,9 @@ background: -o-linear-gradient(left, #000 33%, transparent 34%, transparent 44%,
   margin-left: -37px;
   background: url('../images/button-proektirovanie-small.png') center center no-repeat;
 }
-
+.button-proektirovanie-small.active:before{
+  top: -82px;
+}
 .button-analitika-small:before{
   content: '';
   position: absolute;
@@ -699,7 +723,7 @@ background: -o-linear-gradient(left, #000 33%, transparent 34%, transparent 44%,
   font-size: 13px;
   color:#fff;
 }
-.panel-partners{
+.panel-red{
   background: #da3039;
   border: 1px solid transparent;
 }
@@ -1147,6 +1171,44 @@ margin-bottom: 19px;
   text-align: left;
   letter-spacing: 0.45px;
 }
+
+/* services-engineering */
+.services-engineering-text{
+  margin: 37px 0 1px;
+  font-family: 'Helvetica-4-Light';
+  font-size: 15px;
+  color: #231f20;
+}
+.engineering-slider-case{
+  margin:82px 0 0;
+}
+.panel-services-engineering{
+  padding: 39px 0;
+}
+.engineering-price-block{
+  display: table;
+  margin: 0 auto 42px;
+}
+
+.engineering-price-block span{
+  display: table-cell;
+  font-family: 'Helvetica-6-Medium';
+  font-size: 30px;
+  color: #fff;
+  vertical-align: middle;
+}
+.engineering-price{
+  display: inline-block;
+  width: 366px;
+  height: 88px;
+  margin: 0 23px;
+  vertical-align: middle;
+  background: url('../images/engineering-price.png') center center no-repeat;
+}
+
+
+
+
 
 
 
