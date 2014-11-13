@@ -127,23 +127,22 @@
     </div>
   </div>
   
-    <div class="panel-services-menu">
-	  <div class="panel-services-menu-red">
-        <div class="container">
-	      <div class="uslugi-buttons-panel">
-	        <div class="container">
-		      <ul class="list-inline uslugi-buttons-small">
-		        <li class="col-xs-3"><a href="#" class="button-razrabotka-small active">Разработка</a></li>
-		        <li class="col-xs-3"><a href="#" class="button-soprovozhdenie-small">Сопровождение</a></li>
-		        <li class="col-xs-3"><a href="#" class="button-proektirovanie-small">Проектирование</a></li>
-		        <li class="col-xs-3"><a href="#" class="button-analitika-small">Аналитика</a></li>
-		      </ul>
-	        </div>
+  <div class="panel-services-menu">
+	<div class="panel-services-menu-red">
+      <div class="container">
+	    <div class="uslugi-buttons-panel">
+	      <div class="container">
+		    <ul class="list-inline uslugi-buttons-small">
+		      <li class="col-xs-3"><a href="#" class="button-razrabotka-small active">Разработка</a></li>
+		      <li class="col-xs-3"><a href="#" class="button-soprovozhdenie-small">Сопровождение</a></li>
+		      <li class="col-xs-3"><a href="#" class="button-proektirovanie-small">Проектирование</a></li>
+		      <li class="col-xs-3"><a href="#" class="button-analitika-small">Аналитика</a></li>
+		    </ul>
 	      </div>
-        </div>
-	  </div>
+	    </div>
+      </div>
     </div>
-  
+  </div>
   <div class="services-site-creating" id="services-site-creating">
     <div class="h2 bottom-red-line">Разработка</div>
     <div class="services-workflow">
@@ -392,8 +391,23 @@
       <a href="order-consultation" class="btn btn-black-red order-consultation">Заказать консультацию</a>
     </div>
   </div>
-  
 </div>
+
+<div class="contacts" id="contacts">
+  <div class="contacts-form-page" id="contacts-form-page">
+    <header class="panel-red-big">
+      <div class="container">
+        <div class="jumbotron">
+          <div class="h1">Контакты</div>
+        </div>
+      </div>
+    </header>
+  </div>
+  <div class="contacts-map-page" id="contacts-map-page">
+
+  </div>
+</div>
+
 <footer> 
   <div class="container">
     <div class="footer-columns-block">
