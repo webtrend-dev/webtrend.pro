@@ -580,17 +580,20 @@ background: -o-linear-gradient(left, #000 33%, transparent 34%, transparent 44%,
 }
 .panel-services-menu-red > .container{}
 .uslugi-buttons-panel{
-  padding: 112px 0 33px;
+  /*padding: 112px 0 33px;*/
 }
 .uslugi-buttons-panel > .container{
-  position: relative;
-  min-height: 24px;
+  /*position: relative;
+  min-height: 24px;*/
   padding: 0;
 }
 .uslugi-buttons-small{
-  position: absolute;
+  /*position: absolute;*/
   width: 100%;
   margin: 0;
+}
+.uslugi-buttons-small li{
+  padding: 112px 0 33px;
 }
 .uslugi-buttons-small a{
   font-family: 'Helvetica-6-Medium';
@@ -1208,9 +1211,107 @@ margin-bottom: 19px;
   background: url('../images/engineering-price.png') center center no-repeat;
 }
 
-
-
-
+/* services-analitics */
+.services-analitics-text{
+  margin: 37px 0 0;
+  font-family: 'Helvetica-4-Light';
+  font-size: 15px;
+  color: #231f20;
+}
+.services-analitics-text p{
+  margin: 0px 0 15px;
+}
+.analitics-parts{
+  margin: 48px 0 0;
+}
+.analitics-one-part{
+  padding: 107px 0 0;
+  margin: 0 0 62px;
+}
+.analitics-icon:hover > .analitics-icon-border{
+  background-color: #da3039;/* при наведении - дождаться отрисовки изображений */
+}
+.analitics-icon{
+  position: relative;
+  font-family: 'Helvetica-6-Medium';
+  font-size: 14px;
+  color: #231f20;
+  text-transform: uppercase;
+}
+.analitics-icon:before{
+  content: '';
+  position: absolute;
+  left: 50%;
+  background: url('../images/sprite-analitics.png') center center no-repeat;
+}
+.analitics-icon:after{
+  content: '';
+  position: absolute;
+  width: 20px;
+  height: 2px;
+  top:-106px;
+  left: -10px;
+  margin-left: 50%;
+  background: #da3039;
+}
+.icon-audit:before{
+  top: -87px;
+  margin-left: -35px;
+  width: 71px;
+  height: 49px;
+  background-position: 0 0 !important;
+}
+.icon-counters:before{
+  top: -83px;
+  margin-left: -27px;
+  width: 54px;
+  height: 42px;
+  background-position: 0 -94px !important;
+}
+.icon-testing:before{
+  top: -85px;
+  margin-left: -23px;
+  width: 47px;
+  height: 45px;
+  background-position: 0 -49px !important;
+  z-index: 1;
+}
+.icon-traffic:before{
+  top: -86px;
+  margin-left: -23px;
+  width: 47px;
+  height: 47px;
+  background-position: 0 -136px !important;
+  z-index: 1;
+}
+.analitics-icon-border{
+  position: absolute;
+  width:90px;
+  height: 90px;
+  top:-107px;
+  left:-45px;
+  margin-left: 50%;
+  border: 1px solid #ddd;
+}
+.analitics-one-part span{
+  height: 80px;
+  overflow: hidden;
+  line-height: 20px;
+  display: block;
+  font-family: 'Helvetica-4-Light';
+  font-size: 15px;
+  color: #231f20;
+}
+.analitics-container {
+  padding: 0 0 62px;
+}
+.analitics-final-text{
+  margin:-25px 0 28px;
+  font-family: 'Helvetica-6-Medium';
+  font-size: 14px;
+  color: #da3036;
+  text-transform: uppercase;
+}
 
 
 

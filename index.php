@@ -10,7 +10,7 @@
   <link href="css/1.0.0.css" rel="stylesheet">
 </head>
 <body>
-
+<div style="position:absolute; height:62px;  left:47%; bottom:0px;  width:200px; background:green;"></div>
 <header class="header">
   <div class="navbar navbar-inverse " role="navigation"><!--navbar-fixed-top-->
     <div class="container">
@@ -108,7 +108,7 @@
             </div>
             <ul class="list-inline uslugi-main-buttons">
               <li class="col-xs-3"><a href="#to-razrabotka" class="button-razrabotka active">Разработка</a></li>
-              <li class="col-xs-3"><a href="#to-soprovozhdenie" class="button-soprovozhdenie">Сопровождение</a></li>
+              <li class="col-xs-3"><a href="#services-site-accompaniment" class="button-soprovozhdenie">Сопровождение</a></li>
               <li class="col-xs-3"><a href="#to-proektirovanie" class="button-proektirovanie">Проектирование</a></li>
               <li class="col-xs-3"><a href="#to-analitika" class="button-analitika">Аналитика</a></li>
             </ul>
@@ -325,18 +325,17 @@
       </div>
     </div>
   </div>
- <div style="position:absolute; height:33px;  left:47%; top:0px;  width:200px; background:green;"></div> 
-  
+    
   <div class="panel-services-menu">
 	<div class="panel-services-menu-red">
       <div class="container">
         <div class="uslugi-buttons-panel">
 	      <div class="container">
-		    <ul class="list-inline uslugi-buttons-small">
-              <li class="col-xs-3"><a href="#" class="button-razrabotka-small">Разработка</a></li>
-		      <li class="col-xs-3"><a href="#" class="button-soprovozhdenie-small">Сопровождение</a></li>
-		      <li class="col-xs-3"><a href="#" class="button-proektirovanie-small">Проектирование</a></li>
-		      <li class="col-xs-3"><a href="#" class="button-analitika-small active">Аналитика</a></li>
+		    <ul class="list-inline uslugi-buttons-small clearfix">
+              <li class="col-xs-12 col-sm-6 col-md-3"><a href="#" class="button-razrabotka-small">Разработка</a></li>
+		      <li class="col-xs-12 col-sm-6 col-md-3"><a href="#" class="button-soprovozhdenie-small">Сопровождение</a></li>
+		      <li class="col-xs-12 col-sm-6 col-md-3"><a href="#" class="button-proektirovanie-small">Проектирование</a></li>
+		      <li class="col-xs-12 col-sm-6 col-md-3"><a href="#" class="button-analitika-small active">Аналитика</a></li>
 		    </ul>
 	      </div>
 	    </div>
@@ -354,15 +353,43 @@
     </div>
     <div class="analitics-parts">
 	  <div class="container">
-	    <div class="col-xs-6">
-		  <div>Аналитика</div>
-		  <div>Установка и настройка счетчиков</div>
+	    <div class="col-xs-12 col-sm-6">
+	      <div class="analitics-one-part">
+		    <div class="analitics-icon icon-audit">
+		      <div class="analitics-icon-border"></div>
+		      Аудит сайта
+		    </div>
+		    <span>Подробный анализ сайта для его дальнейшего продвижения и улучшения для пользователей. Сюда входит не только предварительный анализ сайта для поднятия позиций, но и улучшение юзабилити и контента в целом для пользователей.</span>
+	      </div>
+	      <div class="analitics-one-part">
+		    <div class="analitics-icon icon-counters">
+		      <div class="analitics-icon-border"></div>
+		      Установка и настройка счетчиков
+		    </div>
+		    <span>Счётчик — это специальный скрипт, который передаёт данные о посещаемости вашего сайта в какой-либо сервис статистики</span>
+	      </div>
 	    </div>
-	    <div class="col-xs-6">
-		  <div>Тестирование сайта</div>
-		  <div>Анализ источников трафика</div>
+	    <div class="col-xs-12 col-sm-6">
+	      <div class="analitics-one-part">
+		    <div class="analitics-icon icon-testing">
+		      <div class="analitics-icon-border"></div>
+		      Тестирование сайта
+		    </div>
+		    <span>Используют перед запуском большого проекта, чтобы получить гарантии правильной работоспособ- ности, чтобы повысить его эффективность</span>
+	      </div>
+	      <div class="analitics-one-part">
+		    <div class="analitics-icon icon-traffic">
+		      <div class="analitics-icon-border"></div>
+		      Анализ источников трафика
+		    </div>
+		    <span>Для того чтобы понять, насколько эффективен каждый источник трафика, ведущий на сайт, необходимо оценить его показатели</span>
+	      </div>
 	    </div>
 	  </div>
+    </div>
+    <div class="analitics-container container">
+      <div class="analitics-final-text">Стоимость рассчитывается индивидуально исходя из задач</div>
+      <a href="order-consultation" class="btn btn-black-red order-consultation">Заказать консультацию</a>
     </div>
   </div>
   
