@@ -44,6 +44,7 @@
     padding: 0;
   }	
 }
+
 html {}
 body {}
 .h2, .h3, .h4{
@@ -938,7 +939,7 @@ margin-bottom: 19px;
   padding: 0 3px;
 }
 .social-network:last-of-type{
-  padding: 0;
+  padding: 0 0 0 3px;
 }
 .social-network a{
   float: left;
@@ -1312,6 +1313,111 @@ margin-bottom: 19px;
   color: #da3036;
   text-transform: uppercase;
 }
+
+/* contacts */
+.contacts-form-page .panel-red-big{
+  background: #DA3037 url('../images/panel-uslugi-big.png') center center no-repeat;
+  text-align: center;
+  color:#fff;
+}
+.contacts-form-page .jumbotron{
+  padding: 96px 0 52px;
+  margin-bottom: 0;
+  background-color: transparent;
+}
+.contacts-form-page .jumbotron .h1 {
+  font-family: 'Helvetica-4-Light';
+  font-size: 50px;
+  text-transform: uppercase;
+  color: #fff;
+  margin: 0;
+}
+.contacts-methods-block{
+  
+}
+.contacts-methods{
+  margin: 0;
+}
+.contacts-methods li{
+  width: 20%;
+  float: left;
+  padding: 158px 0 0;
+}
+.contact-type{
+  position: relative;
+  font-family: 'Helvetica-6-Medium';
+  font-size: 14px;
+  text-transform: uppercase;
+}
+.contact-type:before{
+  content: '';
+  position: absolute;
+  left: 50%;
+  background: url('../images/sprite-contacts.png') no-repeat;
+}
+.contact-type:after{
+  content: '';
+  position: absolute;
+  width: 36px;
+  height: 2px;
+  left: 50%;
+  margin-left: -18px;
+  top: -17px;
+  background: #fff;
+}
+.type-phone:before{
+  width: 38px;
+  height: 52px;
+  top: -97px;
+  margin-left: -19px;
+  background-position: 0 -5px !important;
+}
+.type-mail:before{
+  width: 62px;
+  height: 38px;
+  top: -94px;
+  margin-left: -31px;
+  background-position: 0 -57px !important;
+}
+
+.contact-value{
+  font-family: 'Helvetica-4-Light';
+  font-size: 18px;
+}
+.contacts-form-block{
+  padding: 54px 0 121px;
+}
+.request-title{
+  font-family: 'Helvetica-6-Medium';
+  font-size: 21px;
+  text-transform: uppercase;
+  color:#f04141;
+}
+.request-text{
+  font-family: 'Helvetica-6-Medium';
+  font-size: 15px;
+  color:#231f20;
+}
+.contacts-form{
+  text-align: center;
+  margin-top: 32px;
+}
+.contacts-form-upper-row > div{
+  padding: 0 2.5%;
+}
+.contacts-form-upper-row > div:first-of-type{
+  padding: 0 2.5% 0 0;
+}
+.contacts-form-upper-row > div:last-of-type{
+  padding: 0 0 0 2.5%;
+}
+.contacts-question-text{
+  margin: 27px 0 49px;
+  resize: none;
+}
+
+
+
 
 
 

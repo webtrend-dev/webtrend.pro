@@ -10,7 +10,7 @@
   <link href="css/1.0.0.css" rel="stylesheet">
 </head>
 <body>
-<div style="position:absolute; height:62px;  left:47%; bottom:0px;  width:200px; background:green;"></div>
+
 <header class="header">
   <div class="navbar navbar-inverse " role="navigation"><!--navbar-fixed-top-->
     <div class="container">
@@ -399,9 +399,36 @@
       <div class="container">
         <div class="jumbotron">
           <div class="h1">Контакты</div>
+          <div class="contacts-methods-block">
+            <ul class="list-inline contacts-methods clearfix">
+              <li>
+	            <div class="contact-type type-phone">Телефон</div>
+	            <div class="contact-value">+7 (495) 777-95-87</div>
+              </li>
+              <li>
+	            <div class="contact-type type-mail">e-mail</div>
+	            <div class="contact-value">order@webtrend.pro</div>
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
     </header>
+    <div class="contacts-form-block" style="position:relative;"><div style="position:absolute; height:61px;  left:47%; top:0px;  width:200px; background:green;"></div>
+	  <div class="container">
+	    <div class="request-title">Заявка</div>
+	    <div class="request-text">Заполните заявку и мы свяжемся с вами в ближайшее время</div>
+	    <div class="contacts-form">
+	      <div class="contacts-form-upper-row clearfix">
+	        <div class="col-xs-12 col-sm-4 contacts-request-fio"><input type="text" class="form-control input-text" placeholder="ФИО*"></div>
+	        <div class="col-xs-12 col-sm-4 contacts-request-phone"><input type="text" class="form-control input-text" placeholder="Телефон*"></div>
+	        <div class="col-xs-12 col-sm-4 contacts-request-mail"><input type="text" class="form-control input-text" placeholder="E-mail*"></div>
+	      </div>
+	      <textarea class="form-control input-text contacts-question-text" placeholder="Комментарий*" ></textarea>
+	      <a href="#sell" class="btn btn-black-red to-send">Отправить</a>
+	    </div>
+	  </div>
+    </div>
   </div>
   <div class="contacts-map-page" id="contacts-map-page">
 
@@ -420,14 +447,14 @@
         </li>
         <li class="col-xs-4 footer-menu">
 	      <div class="footer-column-title">Меню</div>
-	      <div class="col-xs-6 footer-menu-list">
+	      <div class="col-xs-12 col-md-6 footer-menu-list">
 	        <ul class="footer-links-block">
 	          <li><a href="#uslugi">Услуги</a></li>
 	          <li><a href="#o-kompanii">О компании</a></li>
 	          <li><a href="#portfolio">Портфолио</a></li>
 	        </ul>
 	      </div>
-	      <div class="col-xs-6 footer-menu-list">
+	      <div class="col-xs-12 col-md-6 footer-menu-list">
 	        <ul class="footer-links-block">
 	          <li><a href="#uslugi">Блог</a></li>
 	          <li><a href="#o-kompanii">Вакансии</a></li>
@@ -443,7 +470,6 @@
 	      </div>
 	      <div class="footer-question">
 	        <textarea class="form-control input-text" placeholder="Вопрос*" ></textarea>
-	        <!--<input type="text" class="form-control input-text" placeholder="Вопрос*"> onfocus="this.rows='3'" -->
 	      </div>
 	      <a href="#sell" class="red-button call-back clearfix">Отправить</a>
         </li>
