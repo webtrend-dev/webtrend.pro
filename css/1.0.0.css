@@ -253,6 +253,9 @@ background: -o-linear-gradient(left, #000 33%, transparent 34%, transparent 44%,
 .order-consultation{
   padding: 0px 25px;
 }
+.to-send{
+  padding: 0px 79px;
+}
 .red-button{
   font-family: 'Helvetica-4-Light';
   color:#fff;
@@ -1379,10 +1382,33 @@ margin-bottom: 19px;
   margin-left: -31px;
   background-position: 0 -57px !important;
 }
-
+.type-skype:before{
+  width: 54px;
+  height: 54px;
+  top: -102px;
+  margin-left: -27px;
+  background-position: 0 -95px !important;
+}
+.type-fb:before{
+  width: 28px;
+  height: 57px;
+  top: -103px;
+  margin-left: -14px;
+  background-position: -38px 0px !important;
+}
+.type-vk:before{
+  width: 41px;
+  height: 43px;
+  top: -96px;
+  margin-left: -20px;
+  background-position: -54px -95px !important;
+}
 .contact-value{
   font-family: 'Helvetica-4-Light';
   font-size: 18px;
+}
+.contact-value a{
+  color:#fff;
 }
 .contacts-form-block{
   padding: 54px 0 121px;

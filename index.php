@@ -10,7 +10,7 @@
   <link href="css/1.0.0.css" rel="stylesheet">
 </head>
 <body>
-
+<div style="position:absolute; height:61px;  left:47%; top:0px;  width:200px; background:green;"></div>
 <header class="header">
   <div class="navbar navbar-inverse " role="navigation"><!--navbar-fixed-top-->
     <div class="container">
@@ -409,12 +409,24 @@
 	            <div class="contact-type type-mail">e-mail</div>
 	            <div class="contact-value">order@webtrend.pro</div>
               </li>
+              <li>
+	            <div class="contact-type type-skype">skype</div>
+	            <div class="contact-value">order@webtrend.pro</div>
+              </li>
+              <li>
+	            <div class="contact-type type-fb">facebook</div>
+	            <div class="contact-value">order@webtrend.pro</div>
+              </li>
+              <li>
+	            <div class="contact-type type-vk">vkontakte</div>
+	            <div class="contact-value"><a href="https://vk.com/webtrends">vk.com/webtrends</a></div>
+              </li>
             </ul>
           </div>
         </div>
       </div>
     </header>
-    <div class="contacts-form-block" style="position:relative;"><div style="position:absolute; height:61px;  left:47%; top:0px;  width:200px; background:green;"></div>
+    <div class="contacts-form-block">
 	  <div class="container">
 	    <div class="request-title">Заявка</div>
 	    <div class="request-text">Заполните заявку и мы свяжемся с вами в ближайшее время</div>
