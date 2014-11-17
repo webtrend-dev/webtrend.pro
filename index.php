@@ -10,7 +10,7 @@
   <link href="css/1.0.0.css" rel="stylesheet">
 </head>
 <body>
-<div style="position:absolute; height:61px;  left:47%; top:0px;  width:200px; background:green;"></div>
+
 <header class="header">
   <div class="navbar navbar-inverse " role="navigation"><!--navbar-fixed-top-->
     <div class="container">
@@ -145,8 +145,8 @@
   </div>
   <div class="services-site-creating" id="services-site-creating">
     <div class="h2 bottom-red-line">Разработка</div>
-    <div class="services-workflow">
-      <img src="./images/services-algorithm.png" alt="">
+    <div class="services-workflow site-creating-img">
+      <img src="./images/services-algorithm.png" alt=""><!-- 1100px -->
     </div>
     <div class="panel-black panel-tecnologies">
       <div class="h3">Технологии</div>
@@ -206,7 +206,7 @@
   <div class="services-site-accompaniment" id="services-site-accompaniment">
     <div class="h2 bottom-red-line">Сопровождение</div>
     <div class="services-workflow">
-      <img src="./images/accompaniment-algorithm.png" alt="">
+      <img src="./images/accompaniment-algorithm.png" alt=""><!-- 880px -->
     </div>
     <div class="accompaniment-stats"> 
       <div class="container">
@@ -307,8 +307,8 @@
       <div class="container">От того, насколько профессионально будет спроектирован сайт компании, зависит успешность и эффективность дальнейшей эксплуатации ресурса и та польза, которую он принесет его владельцу. Поэтому компания Webtrend комплексно подходит к реализации заказов по проектированию сайтов, выделяя для этого все необходимые ресурсы и лучшие возможности своей команды.
       </div>
     </div>
-    <div class="services-workflow">
-      <img src="./images/engineering-algorithm.png" alt="" width="1043" height="282">
+    <div class="services-workflow services-engineering-img">
+      <img src="./images/engineering-algorithm.png" alt=""><!-- 1043px -->
     </div>
     <div class="engineering-slider-case">
 	  <img src="./images/slider-case-1.jpg" alt="">
@@ -442,8 +442,26 @@
 	  </div>
     </div>
   </div>
+  <header class="header low-header">
+    <div class="navbar navbar-inverse " role="navigation"><!--navbar-fixed-top-->
+      <div class="container"><div style="position:absolute; height:61px;  left:47%; top:0px;  width:200px; background:green;"></div>
+        <div class="navbar-header">
+          <a class="navbar-brand" href="/">web trend</a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#o-kompanii">о компании</a></li>
+            <li><a href="#uslugi">услуги</a></li>
+            <li class="active"><a href="#portfolio">портфолио</a></li>
+            <li><a href="#kontakty">блог</a></li>
+            <li><a href="#blog">контакты</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </div>
+  </header>
   <div class="contacts-map-page" id="contacts-map-page">
-
+    <script type="text/javascript" charset="utf-8" src="//api-maps.yandex.ru/services/constructor/1.0/js/?sid=PatLjj6aGT-AZI0vovWVbMcmcAu_8JWG&width=600&height=517"></script>
   </div>
 </div>
 

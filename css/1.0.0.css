@@ -42,9 +42,22 @@
   .container{
     width:1000px;
     padding: 0;
-  }	
+  }
+  .site-creating-img{
+    width:1100px;
+  }
+  .services-engineering-img{
+    width:1043px;
+  }
 }
-
+@media (min-width: 992px){
+  .container {
+    padding: 0;
+  }
+  .site-creating-img, .services-engineering-img{
+    width:100%;
+  }
+}
 html {}
 body {}
 .h2, .h3, .h4{
@@ -78,10 +91,13 @@ body {}
   height: 2px;
   background: #da3039;
 }
-
+/* header */
 .header {
   position: relative;
   height: 95px;
+}
+.low-header{
+  height: 71px;
 }
 .header .container{
   padding:0;
@@ -102,6 +118,9 @@ body {}
   font-size: 33px;
   color: #fff;
 }
+.low-header .navbar>.container .navbar-brand{
+  margin: 31px 0 0 64px;
+}
 .header .navbar-brand:before{
   display: block;
   content: '';
@@ -112,11 +131,17 @@ body {}
   bottom: 33px;
   left: -64px;
 }
+.low-header .navbar-brand:before{
+  bottom: 10px;
+}
 .navbar-nav.navbar-right:last-child{
   margin-right: 0;
 }
 .header .nav{
   margin-top:64px;
+}
+.low-header .nav{
+  margin-top: 40px;
 }
 .header .navbar-nav>li>a{
   padding: 0 0 7px;
@@ -129,6 +154,7 @@ body {}
   color: #da3039;
   border-bottom: 4px solid #da3039;
 }
+/* ! header */
 
 .top-slider .jumbotron{
   text-align: center;
@@ -673,7 +699,15 @@ background: -o-linear-gradient(left, #000 33%, transparent 34%, transparent 44%,
   top: -80px;
 }
 .services-workflow{
-  margin: 71px 0 40px;
+  margin: 71px auto 40px;
+}
+.site-creating-img img{
+  width:100%;
+  max-width: 1100px;
+}
+.services-engineering-img img{
+  width:100%;
+  max-width: 1043px;
 }
 .panel-tecnologies{
   background: #020202 url('../images/panel-tecnologies-black.gif') center center no-repeat;
@@ -1188,8 +1222,12 @@ margin-bottom: 19px;
   font-size: 15px;
   color: #231f20;
 }
+
 .engineering-slider-case{
   margin:82px 0 0;
+}
+.engineering-slider-case img{
+  width:100%;
 }
 .panel-services-engineering{
   padding: 39px 0;
@@ -1441,7 +1479,35 @@ margin-bottom: 19px;
   margin: 27px 0 49px;
   resize: none;
 }
-
+.contacts-map-page > ymaps{
+  width:100% !important;
+}
+.ymaps-image{
+  background: #da3039 url('../images/sprite-contacts.png') -66px -34px no-repeat !important;
+  width:40px !important;
+  height:61px !important;
+  z-index: 9999 !important;
+  left: 22px !important;
+top: -109px !important;
+}
+.ymaps-image:before{
+  border: 20px solid #da3039;
+  position: absolute !important;
+  background: transparent !important;
+  content: '';
+  width: 80px !important;
+  height: 101px !important;
+  left: -20px !important;
+  top: -20px !important;
+}
+.ymaps-image:after{
+  border-left: 23px solid #da3039;
+  border-bottom: 23px solid transparent; 
+  position: absolute !important;
+  content: ''; 
+  left: -20px !important;
+  top: 81px !important;
+}
 
 
 
