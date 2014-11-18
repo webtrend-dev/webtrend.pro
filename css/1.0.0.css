@@ -98,6 +98,9 @@ body {}
 }
 .low-header{
   height: 71px;
+  position: fixed;
+  width: 100%;
+  z-index: 2;
 }
 .header .container{
   padding:0;
@@ -430,6 +433,7 @@ background: -o-linear-gradient(left, #000 33%, transparent 34%, transparent 44%,
 /* ------------------- */
 .services{
   text-align:center;
+  padding-top: 71px;
 }
 .services .panel-red-big{
   background:#da3039 url('../images/panel-uslugi-big.png') center center no-repeat;
@@ -604,6 +608,11 @@ background: -o-linear-gradient(left, #000 33%, transparent 34%, transparent 44%,
 /*	services-site-creating	*/
 .panel-services-menu{
   margin: 0 0 28px;
+  display: none;
+  position: fixed;
+  top: 71px;
+  width: 100%;
+  z-index: 2;
 }
 .panel-services-menu-red{
   background: #da3039 url('../images/panel-services-menu-red.png') center center no-repeat;
@@ -618,9 +627,9 @@ background: -o-linear-gradient(left, #000 33%, transparent 34%, transparent 44%,
   padding: 0;
 }
 .uslugi-buttons-small{
-  /*position: absolute;*/
   width: 100%;
   margin: 0;
+  border: none;
 }
 .uslugi-buttons-small li{
   padding: 112px 0 33px;
@@ -630,13 +639,24 @@ background: -o-linear-gradient(left, #000 33%, transparent 34%, transparent 44%,
   font-size: 17px;
   text-transform: uppercase;
   color: #fff;
+  border: none !important;
+  margin: 0;
+  
   position: relative;
 }
-.uslugi-buttons-small a.active{
+.uslugi-buttons-small a:hover, .uslugi-buttons-small .active a:hover{
+  color:#fff !important;
+  background: none !important;
+  border: none !important;
+}
+.uslugi-buttons-small li.active a{
   margin-top:15px;
   display: block;
+  color: #fff;
+  background: none;
+  border: none;
 }
-.uslugi-buttons-small a.active:after{
+.uslugi-buttons-small li.active a:after{
   content: '';
   position: absolute;
   bottom: 40px;
@@ -656,7 +676,7 @@ background: -o-linear-gradient(left, #000 33%, transparent 34%, transparent 44%,
   margin-left: -31px;
   background: url('../images/button-razrabotka-small.png') center center no-repeat;
 }
-.button-razrabotka-small.active:before{
+.active .button-razrabotka-small:before{
   top: -87px;
 }
 .button-soprovozhdenie-small:before{
@@ -669,7 +689,7 @@ background: -o-linear-gradient(left, #000 33%, transparent 34%, transparent 44%,
   margin-left: -34px;
   background: url('../images/button-soprovozhdenie-small.png') center center no-repeat;
 }
-.button-soprovozhdenie-small.active:before{
+.active .button-soprovozhdenie-small:before{
   top: -95px;
 }
 .button-proektirovanie-small:before{
@@ -682,7 +702,7 @@ background: -o-linear-gradient(left, #000 33%, transparent 34%, transparent 44%,
   margin-left: -37px;
   background: url('../images/button-proektirovanie-small.png') center center no-repeat;
 }
-.button-proektirovanie-small.active:before{
+.active .button-proektirovanie-small:before{
   top: -82px;
 }
 .button-analitika-small:before{
@@ -695,7 +715,7 @@ background: -o-linear-gradient(left, #000 33%, transparent 34%, transparent 44%,
   margin-left: -38px;
   background: url('../images/button-analitika-small.png') center center no-repeat;
 }
-.button-analitika-small.active:before{
+.active .button-analitika-small:before{
   top: -80px;
 }
 .services-workflow{
@@ -1009,6 +1029,7 @@ margin-bottom: 19px;
 .comma-big-outer{
   width: 110px;
   height: 110px;
+  overflow: hidden;
   position: relative;
   background: #020202;
   border-radius: 55px;
