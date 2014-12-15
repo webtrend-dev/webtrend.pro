@@ -1377,6 +1377,9 @@ margin-bottom: 19px;
 }
 
 /* contacts */
+.contacts{
+  padding-top: 71px;
+}
 .contacts-form-page .panel-red-big{
   background: #DA3037 url('../images/panel-uslugi-big.png') center center no-repeat;
   text-align: center;
@@ -1503,13 +1506,13 @@ margin-bottom: 19px;
 .contacts-map-page > ymaps{
   width:100% !important;
 }
-.ymaps-image{
+.ymaps-image{/* метка */
   background: #da3039 url('../images/sprite-contacts.png') -66px -34px no-repeat !important;
   width:40px !important;
   height:61px !important;
   z-index: 9999 !important;
   left: 22px !important;
-top: -109px !important;
+  top: -109px !important;
 }
 .ymaps-image:before{
   border: 20px solid #da3039;
@@ -1529,6 +1532,101 @@ top: -109px !important;
   left: -20px !important;
   top: 81px !important;
 }
+.ymaps-b-balloon{
+  height: 101px;
+  top: -127px !important;
+  left: 3px !important;
+}
+.ymaps-b-balloon > .ymaps-b-balloon__tr, .ymaps-b-balloon > .ymaps-b-balloon__tl{
+  display: none;
+}
+.ymaps-b-balloon__content{
+  font-size: 15px;
+  line-height: 19px;
+  height: 101px;
+  color: #fff;
+  background: #000 !important;
+  -webkit-transform: translate(78px, -2px);
+  -moz-transform:    translate(78px, -2px);
+  -ms-transform:     translate(78px, -2px);
+  -o-transform:      translate(78px, -2px);
+  transform:         translate(78px, -2px);
+}
+.ymaps-b-balloon__content > ymaps{
+  height: 100% !important;
+}
+.ymaps-b-balloon__close{
+/*  border: 1px solid green;*/
+  width: 80px !important;
+  height: 101px !important;
+  top: -2px !important;
+  right: 277px !important;
+  z-index: 10000;
+  background-image: none !important;
+}
+.ymaps-b-balloon__sprite_type_tail{/* как метка выглядит */
+  background: #da3039 url('../images/sprite-contacts.png') -66px -34px no-repeat !important;
+  width:40px !important;
+  height:61px !important;
+  z-index: 9999 !important;
+  left: -153px !important;
+  top: -82px !important;
+}
+.ymaps-b-balloon__sprite_type_tail:before{
+  border: 20px solid #da3039;
+  position: absolute !important;
+  background: transparent !important;
+  content: '';
+  width: 80px !important;
+  height: 101px !important;
+  left: -20px !important;
+  top: -20px !important;
+}
+.ymaps-b-balloon__sprite_type_tail:after{
+  border-left: 23px solid #da3039;
+  border-bottom: 23px solid transparent; 
+  position: absolute !important;
+  content: ''; 
+  left: -20px !important;
+  top: 81px !important;
+}
+.ymaps-b-balloon__bl{
+  width: 0 !important;
+}
+ymaps.ymaps-b-balloon__sprite.ymaps-b-balloon__sprite_position_bl{/* нижняя плашка */
+  display: none;
+}
+.ymaps-b-balloon__tail{
+  background: none !important;
+  right: -206px !important;
+}
+.ymaps-b-balloon__br{
+  display: none !important;
+}
+.ymaps-shadows-pane{
+  display: none;
+}
+
+/* up */
+.up{
+  display: none;
+  width:63px;
+  height: 63px;
+  bottom: 0;
+  right: 50%;
+  margin-right: -611px;
+  background: #3a3a3a;
+  position: fixed;
+  cursor: pointer;
+}
+.up:before{
+  content: '';
+  position: absolute;
+  width: 63px;
+  height: 63px;
+  background: url('../images/up.png') center center no-repeat;
+}
+
 
 
 
