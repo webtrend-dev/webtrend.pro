@@ -124,7 +124,7 @@
     
     <div class="services-site-accompaniment" id="services-site-accompaniment">
       <div class="h2 bottom-red-line">Сопровождение</div>
-      <div class="services-workflow">
+      <div class="services-workflow site-accompaniment-img">
         <img src="./images/accompaniment-algorithm.png" alt=""><!-- 880px -->
       </div>
       <div class="accompaniment-stats"> 

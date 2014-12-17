@@ -78,8 +78,10 @@
       </div>
     </div>
   
-    <div class="contacts-map-page" id="contacts-map-page">
+   <?/* <div class="contacts-map-page" id="contacts-map-page">
       <script type="text/javascript" charset="utf-8" src="//api-maps.yandex.ru/services/constructor/1.0/js/?sid=PatLjj6aGT-AZI0vovWVbMcmcAu_8JWG&width=600&height=517"></script>
+    </div>*/?>
+    <div class="wt-map" id="wt_map">
     </div>
   </div><!-- #contacts -->
   
@@ -142,5 +144,7 @@
   <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
   <script src="js/scripts.js"></script>
+  <script src="http://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
+  <script src="js/map.js" type="text/javascript"></script>
   
 </body> 
