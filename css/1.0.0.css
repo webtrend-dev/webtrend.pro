@@ -271,21 +271,14 @@ background: -o-linear-gradient(left, #000 33%, transparent 34%, transparent 44%,
   padding: 0px 42px;
 }
 .btn-244{
-  padding: 0px 78px;
-}
-.know-prices{
-  padding: 0px 72px;
-}
-.to-order{
-  padding: 0px 85px;
-}
-.order-consultation{
-  padding: 0px 25px;
+  padding: 0;
+  width: 244px;
 }
 .to-send{
   padding: 0px 79px;
 }
 .red-button{
+  text-align: center;
   font-family: 'Helvetica-4-Light';
   color:#fff;
   font-size: 14px;
@@ -1755,18 +1748,139 @@ ymaps.ymaps-b-balloon__sprite.ymaps-b-balloon__sprite_position_bl{/* нижня�
   background: url('../images/up.png') center center no-repeat;
 }
 
+/* portfolio */
+.portfolio{
+  padding: 71px 0 120px; /* padding-top because header has position:fixed */
+}
+.wt-portfolio-info{
+  padding: 89px 0 23px;
+  font-family: 'Helvetica-4-Light';
+  color:#231f20;
+  text-align: center;
+}
+.portfolio-title{
+  margin-bottom: 5px;
+  font-size: 50px;
+  text-transform: uppercase;
+}
+.portfolio-description{
+  margin-bottom: 19px;
+  font-size: 18px;
+}
+.portfolio-buttons-block{}
 
-
-
-
-
-/* .halko{ 
+.portfolio-right-button, .portfolio-left-button{
+  margin-top: 19px;
+  padding-right: 25px;
+  padding-left: 25px;
+}
+@media (min-width: 768px){
+  .portfolio-left-button{
+    text-align: right;
+  }
+  .portfolio-right-button{
+    text-align: left
+  }
+}
+.wt-portfolio-slider-block{
+  max-width: 1328px;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+.wt-single-slide-box{
+  padding: 0;
+}
+.ss-image{
+  position: relative;
+}
+.ss-image > img{
+  width: 100%;
+  max-width: 100%;
+}
+.ss-image-twilight{
   position: absolute;
-left: -10px;
-bottom: -6px;
+  left: 0;
+  top:0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  background: rgba(0,0,0,0.6) url('../images/magnifier.png') 50% 50% no-repeat;
+}
+.wt-single-slide-box a:hover .ss-image-twilight{
+  opacity: 1;
+}
+.ss-description{
+  height: 137px;
+  padding: 41px 10px 0;
+  text-align: center;
+  font-family: 'Helvetica-6-Medium';
+  color:#231f20;
+  text-transform: uppercase;
+}
+.wt-single-slide-box a:hover{
+  text-decoration: none;
+}
+.wt-single-slide-box a:hover .ss-description{
+  background: #da3039;
+}
+.ss-description:before{
+  content: '';
+  display: block;
+  width: 36px;
+  height: 2px;
+  margin: 0px auto 14px;
+  background: #da3039;
+}
+.wt-single-slide-box a:hover .ss-description:before{
+  background: #fff;
+}
+.bx-wrapper .bx-viewport {
+  -webkit-box-shadow: none;
+  -moz-box-shadow:    none;
+  box-shadow:         none;
+  border: none;
+  left: 0;
+}
+.bx-wrapper .bx-controls-direction a{
+  width: 19px;
+  height: 30px;
+}
+.bx-wrapper .bx-prev{
+  background: url('../images/wt-slider-arrow.png') no-repeat;
+  left: -24px;
+}
+.bx-wrapper .bx-next {
+  background: url('../images/wt-slider-arrow.png') no-repeat;
+  transform: rotate(180deg);
+  right: -24px;
+}
+@media (min-width: 768px){
+  .bx-wrapper .bx-prev{
+    left: -34px;
+  }
+  .bx-wrapper .bx-next{
+    right: -34px;
+  }
+}
+@media (min-width: 992px){
+  .bx-wrapper .bx-prev{
+    left: -89px;
+  }
+  .bx-wrapper .bx-next{
+    right: -89px;
+  }
+}
+.bx-wrapper .bx-next:hover {
+  background-position: 0 0;
+}
+
+/**/ .halko{ 
+  position: absolute;
+left: 20%;
+bottom: 0px;
 background: green;
-width: 78px;
-height: 32px;
-}  */   
+width: 150px;
+height: 19px;
+}     
 
 /* скомпилировать в less */

@@ -2,13 +2,16 @@
 <html lang="ru">
 <head>
   <meta charset="utf-8">
-  <title>webtrend.pro - Контакты</title>
+  <title>webtrend.pro</title>
   
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  
   <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/jquery.bxslider.css" rel="stylesheet">
   <link href="css/1.0.0.css" rel="stylesheet">
 </head>
-<body data-spy="scroll" data-target=".navbar-example">
+<body>
+
   <header class="header low-header">
     <div class="navbar navbar-inverse " role="navigation"><!--navbar-fixed-top-->
       <div class="container">
@@ -27,63 +30,63 @@
       </div>
     </div>
   </header>
-  
-  <div class="contacts" id="contacts">
-    <div class="contacts-form-page" id="contacts-form-page">
-      <header class="panel-red-big">
-        <div class="container">
-          <div class="jumbotron">
-            <div class="h1">Контакты</div>
-            <div class="contacts-methods-block">
-              <ul class="list-inline contacts-methods clearfix">
-                <li>
-	              <div class="contact-type type-phone">Телефон</div>
-	              <div class="contact-value">+7 (495) 777-95-87</div>
-                </li>
-                <li>
-	              <div class="contact-type type-mail">e-mail</div>
-	              <div class="contact-value">order@webtrend.pro</div>
-                </li>
-                <li>
-	              <div class="contact-type type-skype">skype</div>
-	              <div class="contact-value">order@webtrend.pro</div>
-                </li>
-                <li>
-	              <div class="contact-type type-fb">facebook</div>
-	              <div class="contact-value">order@webtrend.pro</div>
-                </li>
-                <li>
-	              <div class="contact-type type-vk">vkontakte</div>
-	              <div class="contact-value"><a href="https://vk.com/webtrends">vk.com/webtrends</a></div>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </header>
-      <div class="contacts-form-block">
-	    <div class="container">
-	      <div class="request-title">Заявка</div>
-	      <div class="request-text">Заполните заявку и мы свяжемся с вами в ближайшее время</div>
-	      <div class="contacts-form">
-	        <div class="contacts-form-upper-row clearfix">
-	          <div class="col-xs-12 col-sm-4 contacts-request-fio"><input type="text" class="form-control input-text" placeholder="ФИО*"></div>
-	          <div class="col-xs-12 col-sm-4 contacts-request-phone"><input type="text" class="form-control input-text" placeholder="Телефон*"></div>
-	          <div class="col-xs-12 col-sm-4 contacts-request-mail"><input type="text" class="form-control input-text" placeholder="E-mail*"></div>
-	        </div>
-	        <textarea class="form-control input-text contacts-question-text" placeholder="Комментарий*" ></textarea>
-	        <a href="#sell" class="btn btn-black-red to-send">Отправить</a>
-	      </div>
+
+  <div class="portfolio" id="portfolio">
+    <div class="wt-portfolio-info">
+	  <div class="container">
+	    <div class="portfolio-title">Портфолио</div>
+	    <div class="portfolio-description">За время своей работы мы сотрудничали как с известными, так и с небольшими фирмами и частными предпринимателями.<br>Мы чувствуем большую степень ответственности перед заказчиками и заботимся о репутации своей компании.</div>
+	    <div class="portfolio-buttons-block clearfix">
+		  <div class="col-xs-12 col-sm-6 portfolio-left-button">
+            <a href="#saiti-uslug" class="btn red-button btn-244 saiti-uslug-button clearfix">Сайты услуг</a>
+		  </div>
+		  <div class="col-xs-12 col-sm-6 portfolio-right-button">
+		    <a href="#magazini" class="btn btn-black-red btn-244">Интернет-магазины</a>
+		  </div>
 	    </div>
+	  </div>
+    </div><!-- wt-portfolio-info -->
+    <div class="wt-portfolio-slider-block clearfix">
+      <div id="portfolio_slider">
+	  <div class="col-xs-3 wt-single-slide-box">
+	    <a href="portfolio_page.php">
+	      <div class="ss-image"><div class="ss-image-twilight"></div><img src="images/portfolio-slides/p-slide-1.jpg" alt=""></div>
+	      <div class="ss-description">Сайт такой-то. Было реализлвано то и это</div>
+	    </a>
+	  </div>
+	  <div class="col-xs-3 wt-single-slide-box">
+	    <a href="portfolio_page.php">
+	      <div class="ss-image"><div class="ss-image-twilight"></div><img src="images/portfolio-slides/p-slide-2.jpg" alt=""></div>
+	      <div class="ss-description">Название данного проекта<br> можно писать в 2 строки</div>
+	    </a>
+	  </div>
+	  <div class="col-xs-3 wt-single-slide-box">
+	    <a href="portfolio_page.php">
+	      <div class="ss-image"><div class="ss-image-twilight"></div><img src="images/portfolio-slides/p-slide-3.jpg" alt=""></div>
+	      <div class="ss-description">Название данного проекта<br> можно писать в 2 строки</div>
+	    </a>
+	  </div>
+	  <div class="col-xs-3 wt-single-slide-box">
+	    <a href="portfolio_page.php">
+	      <div class="ss-image"><div class="ss-image-twilight"></div><img src="images/portfolio-slides/p-slide-4.jpg" alt=""></div>
+	      <div class="ss-description">Название данного проекта<br> можно писать в 2 строки</div>
+	    </a>
+	  </div>
+	  <div class="col-xs-3 wt-single-slide-box">
+	    <a href="portfolio_page.php">
+	      <div class="ss-image"><div class="ss-image-twilight"></div><img src="images/portfolio-slides/p-slide-1.jpg" alt=""></div>
+	      <div class="ss-description">Сайт такой-то. Было реализлвано то и это</div>
+	    </a>
+	  </div>
+	  <div class="col-xs-3 wt-single-slide-box">
+	    <a href="portfolio_page.php">
+	      <div class="ss-image"><div class="ss-image-twilight"></div><img src="images/portfolio-slides/p-slide-2.jpg" alt=""></div>
+	      <div class="ss-description">Название данного проекта<br> можно писать в 2 строки</div>
+	    </a>
+	  </div>
       </div>
-    </div>
-  
-   <?/* <div class="contacts-map-page" id="contacts-map-page">
-      <script type="text/javascript" charset="utf-8" src="//api-maps.yandex.ru/services/constructor/1.0/js/?sid=PatLjj6aGT-AZI0vovWVbMcmcAu_8JWG&width=600&height=517"></script>
-    </div>*/?>
-    <div class="wt-map" id="wt_map"></div>
-    
-  </div><!-- #contacts -->
+    </div><!-- wt-portfolio-slider-block -->
+  </div><!-- #portfolio -->
   
   <footer> 
   <div class="container">
@@ -144,7 +147,6 @@
   <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
   <script src="js/scripts.js"></script>
-  <script src="http://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
-  <script src="js/map.js" type="text/javascript"></script>
-  
+  <script src="js/portfolio_slider.js"></script>
+  <script src="js/jquery.bxslider.min.js"></script>
 </body>

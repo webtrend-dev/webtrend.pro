@@ -19,7 +19,7 @@
           <ul class="nav navbar-nav navbar-right">
             <li><a href="#o-kompanii">о компании</a></li>
             <li class="active"><a href="#uslugi">услуги</a></li>
-            <li><a href="#portfolio">портфолио</a></li>
+            <li><a href="portfolio.php">портфолио</a></li>
             <li><a href="#kontakty">блог</a></li>
             <li><a href="contacts.php">контакты</a></li>
           </ul>
@@ -109,14 +109,14 @@
             <p class="services-desc-text">Заказав сайт у нас, вы можете быть уверены — этот ресурс станет не только визитной карточкой вашей компании, но и  — эффективным инструментом, неизменно приносящим новых клиентов и процветание бизнесу. </p>
             <div class="services-link-portfolio"><a href="#" class="red-link">Посмотреть в портфолио</a></div>
             <div class="services-link-dogovor"><a href="#" class="black-link">Скачать договор</a></div>
-            <a href="#" class="btn btn-black-red know-prices">Узнать цены</a>
+            <a href="#" class="btn btn-black-red btn-244">Узнать цены</a>
           </div>
           <div class="col-xs-6 services-description-column">
             <div class="h4 internet-magazin">Интернет-магазин</div>
             <p class="services-desc-text">Создавая интернет-магазин в Web-trend, ресурс, который осуществляет продажи на протяжении 24 часов в сутки, 7 дней в неделю, вы вкладываете будущее. Интернет-магазин работает на вас, даже когда вы отдыхаете.</p>
             <div class="services-link-portfolio"><a href="#" class="red-link">Посмотреть в портфолио</a></div>
             <div class="services-link-dogovor"><a href="#" class="black-link">Скачать договор</a></div>
-            <a href="#" class="btn btn-black-red know-prices">Узнать цены</a>
+            <a href="#" class="btn btn-black-red btn-244">Узнать цены</a>
           </div>
         </div>
       </div>
@@ -180,7 +180,7 @@
             <p class="accompaniment-desc-text">Тариф для компаний, которым важна регулярная работа над обновлением контента сайта, а так же всесторонняя техническая поддержка.</p>
             <div class="services-link-portfolio"><a href="#" class="red-link">Посмотреть набор услуг</a></div>
             <div class="services-link-dogovor"><a href="#" class="black-link">Скачать договор</a></div>
-            <a href="#order" class="btn btn-black-red to-order">Заказать</a>
+            <a href="#order" class="btn btn-black-red btn-244">Заказать</a>
           </div>
           <div class="col-xs-6 accompaniment-description-column">
             <div class="h4">Безлимитный пакет</div>
@@ -197,7 +197,7 @@
             <p class="accompaniment-desc-text">Тариф, в первую очередь нацеленный на увеличение продаж с сайта (подходит для интернет-магазинов). Включает в себя комплексное обновление контента и техническую поддержку.</p>
             <div class="services-link-portfolio"><a href="#" class="red-link">Посмотреть набор услуг</a></div>
             <div class="services-link-dogovor"><a href="#" class="black-link">Скачать договор</a></div>
-            <a href="#order" class="btn btn-black-red to-order">Заказать</a>
+            <a href="#order" class="btn btn-black-red btn-244">Заказать</a>
           </div>
         </div>
       </div>
@@ -220,7 +220,7 @@
 	        <div class="engineering-price"></div>
 	        <span class="engineering-price-currency">руб.</span>
           </div>
-          <a href="order-consultation" class="btn btn-white-black order-consultation">Заказать консультацию</a>
+          <a href="order-consultation" class="btn btn-white-black btn-244">Заказать консультацию</a>
         </div>
       </div>
     </div>
@@ -271,7 +271,7 @@
       </div>
       <div class="analitics-container container">
         <div class="analitics-final-text">Стоимость рассчитывается индивидуально исходя из задач</div>
-        <a href="order-consultation" class="btn btn-black-red order-consultation">Заказать консультацию</a>
+        <a href="order-consultation" class="btn btn-black-red btn-244">Заказать консультацию</a>
       </div>
     </div>
   </div><!-- #uslugi -->
