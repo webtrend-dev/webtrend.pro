@@ -9,12 +9,7 @@ if(wWindow >= 1200 && wWindow <= 1516)
 {
   wt_maxSlides = 3;
 }
-else if(wWindow >= 992 && wWindow < 1200)
-{
-  wt_maxSlides = 2;
-  wt_moveSlides = 2
-}
-else if(wWindow >= 768 && wWindow < 992)
+else if(wWindow >= 768 && wWindow < 1200)
 {
   wt_maxSlides = 2;
   wt_moveSlides = 2

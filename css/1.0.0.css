@@ -38,6 +38,9 @@
        url('../fonts/Helvetica-3-Thin.ttf')  format('truetype'),
        url('../fonts/Helvetica-3-Thin.svg#Helvetica-3-Thin') format('svg');
 }
+.container{
+    width:1000px !important;
+}
 @media (min-width: 1200px){
   .container{
     width:1000px;
@@ -58,8 +61,14 @@
     width:100%;
   }
 }
+*{
+  -moz-box-sizing:    border-box;
+  box-sizing: border-box;
+}
 html {}
-body {}
+body {
+  min-width: 1000px;
+}
 .h2, .h3, .h4{
   font-family: 'Helvetica-6-Medium';
   text-transform: uppercase;
@@ -109,6 +118,7 @@ body {}
   background-color:#020202;
   border: none;
   border-radius: 0;
+  margin-bottom: 0;
 }
 .header .navbar>.container .navbar-brand{
   position:relative;
@@ -164,7 +174,7 @@ body {}
   background: transparent;
   padding: 196px 0 195px;
 }
-.tab-content>.tab-pane {/* разобраться с bootstrap */
+.top-slider .tab-content>.tab-pane {/* разобраться с bootstrap */
   height: 714px; /* высота при ресайзе и разныз размерах окна */
 }
 #top-slider-1{
@@ -1797,7 +1807,7 @@ ymaps.ymaps-b-balloon__sprite.ymaps-b-balloon__sprite_position_bl{/* нижня�
   width: 100%;
   max-width: 100%;
 }
-.ss-image-twilight{
+.image-twilight{
   position: absolute;
   left: 0;
   top:0;
@@ -1806,7 +1816,7 @@ ymaps.ymaps-b-balloon__sprite.ymaps-b-balloon__sprite_position_bl{/* нижня�
   opacity: 0;
   background: rgba(0,0,0,0.6) url('../images/magnifier.png') 50% 50% no-repeat;
 }
-.wt-single-slide-box a:hover .ss-image-twilight{
+.wt-single-slide-box a:hover .image-twilight{
   opacity: 1;
 }
 .ss-description{
@@ -1851,7 +1861,11 @@ ymaps.ymaps-b-balloon__sprite.ymaps-b-balloon__sprite_position_bl{/* нижня�
 }
 .bx-wrapper .bx-next {
   background: url('../images/wt-slider-arrow.png') no-repeat;
-  transform: rotate(180deg);
+  -webkit-transform: rotate(180deg);
+  -moz-transform:    rotate(180deg);
+  -ms-transform:     rotate(180deg);
+  -o-transform:      rotate(180deg);
+  transform:         rotate(180deg);
   right: -24px;
 }
 @media (min-width: 768px){
@@ -1874,13 +1888,92 @@ ymaps.ymaps-b-balloon__sprite.ymaps-b-balloon__sprite_position_bl{/* нижня�
   background-position: 0 0;
 }
 
+/* portfolio-site */
+.portfolio-site{
+  padding: 71px 0 0;
+}
+.ps-title{
+  text-align: center;
+}
+.ps-block{
+  margin:12px 0 20px;
+  padding: 37px 0 65px;
+}
+.ps-site-page-block{
+  overflow: hidden;
+  padding-left: 0;
+  padding-right: 25px;
+}
+.ps-site-page-block img{
+  max-width: 100%;
+}
+.ps-site-page-info{
+  padding-right: 0;
+  padding-left: 25px;
+  padding-top: 9px;
+  padding-bottom: 9px;
+}
+.ps-info-part{
+  margin-bottom: 18px;
+}
+.ps-info-title{
+  margin-bottom: 18px;
+  font-family: 'Helvetica-6-Medium';
+  font-size: 14px;
+  color: #da3036;
+  text-transform: uppercase;
+}
+.ps-info-desc{
+/*  margin-bottom: 35px; */
+  padding-bottom: 17px;
+  font-family: 'Helvetica-4-Light';
+  font-size: 15px;
+  color: #231f20;
+}
+.ps-info-previews{
+/*  margin-top: 26px; */
+/*  margin-bottom: 30px; */
+  padding: 8px 0 12px;
+  list-style-type: none;
+}
+.ps-info-preview{
+  padding: 0 5px;
+  margin-bottom: 10px;
+  height: 94px;
+  line-height: 91px;
+}
+.ps-info-preview > a{
+  height: inherit;
+}
+.ps-preview-first{
+  padding-left: 0;
+}
+.ps-preview-last{
+  padding-right: 0;
+}
+.img-center-middle{
+  text-align: center;
+  height: inherit;
+  border: 1px solid #a6a6a6;
+  overflow: hidden;
+  position: relative;/* has .image-twilight:absolute inside */
+}
+.ps-info-preview img{
+  max-width: 100%;
+  max-height: 100%;
+}
+.ps-info-preview:not(.active) a:hover .image-twilight{
+  opacity: 1;
+}
+
+
+
 /**/ .halko{ 
   position: absolute;
 left: 20%;
-bottom: 0px;
+top: 0px;
 background: green;
 width: 150px;
-height: 19px;
+height: 85px;
 }     
-
 /* скомпилировать в less */

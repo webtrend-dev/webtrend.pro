@@ -2,10 +2,9 @@
 <html lang="ru">
 <head>
   <meta charset="utf-8">
-  <title>webtrend.pro</title>
+  <title>webtrend.pro - Портфолио</title>
   
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  
+  <?/*<meta name="viewport" content="width=device-width, initial-scale=1">*/?>  
   <link href="css/bootstrap.min.css" rel="stylesheet">
   <link href="css/jquery.bxslider.css" rel="stylesheet">
   <link href="css/1.0.0.css" rel="stylesheet">
@@ -22,9 +21,9 @@
           <ul class="nav navbar-nav navbar-right">
             <li><a href="#o-kompanii">о компании</a></li>
             <li><a href="uslugi.php">услуги</a></li>
-            <li><a href="portfolio.php">портфолио</a></li>
+            <li class="active"><a href="portfolio.php">портфолио</a></li>
             <li><a href="#kontakty">блог</a></li>
-            <li class="active"><a href="#blog">контакты</a></li>
+            <li><a href="contacts.php">контакты</a></li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>
@@ -50,37 +49,37 @@
       <div id="portfolio_slider">
 	  <div class="col-xs-3 wt-single-slide-box">
 	    <a href="portfolio_page.php">
-	      <div class="ss-image"><div class="ss-image-twilight"></div><img src="images/portfolio-slides/p-slide-1.jpg" alt=""></div>
+	      <div class="ss-image"><div class="image-twilight"></div><img src="images/portfolio-slides/p-slide-1.jpg" alt=""></div>
+	      <div class="ss-description">Сайт такой-то</div>
+	    </a>
+	  </div>
+	  <div class="col-xs-3 wt-single-slide-box">
+	    <a href="portfolio_page.php">
+	      <div class="ss-image"><div class="image-twilight"></div><img src="images/portfolio-slides/p-slide-2.jpg" alt=""></div>
+	      <div class="ss-description">Название данного проекта<br> можно писать в 2 строки</div>
+	    </a>
+	  </div>
+	  <div class="col-xs-3 wt-single-slide-box">
+	    <a href="portfolio_page.php">
+	      <div class="ss-image"><div class="image-twilight"></div><img src="images/portfolio-slides/p-slide-3.jpg" alt=""></div>
+	      <div class="ss-description">Название данного проекта<br>Название данного проекта<br>Название данного проекта<br></div>
+	    </a>
+	  </div>
+	  <div class="col-xs-3 wt-single-slide-box">
+	    <a href="portfolio_page.php">
+	      <div class="ss-image"><div class="image-twilight"></div><img src="images/portfolio-slides/p-slide-4.jpg" alt=""></div>
+	      <div class="ss-description">Название данного проекта<br> можно писать в 2 строки</div>
+	    </a>
+	  </div>
+	  <div class="col-xs-3 wt-single-slide-box">
+	    <a href="portfolio_page.php">
+	      <div class="ss-image"><div class="image-twilight"></div><img src="images/portfolio-slides/p-slide-1.jpg" alt=""></div>
 	      <div class="ss-description">Сайт такой-то. Было реализлвано то и это</div>
 	    </a>
 	  </div>
 	  <div class="col-xs-3 wt-single-slide-box">
 	    <a href="portfolio_page.php">
-	      <div class="ss-image"><div class="ss-image-twilight"></div><img src="images/portfolio-slides/p-slide-2.jpg" alt=""></div>
-	      <div class="ss-description">Название данного проекта<br> можно писать в 2 строки</div>
-	    </a>
-	  </div>
-	  <div class="col-xs-3 wt-single-slide-box">
-	    <a href="portfolio_page.php">
-	      <div class="ss-image"><div class="ss-image-twilight"></div><img src="images/portfolio-slides/p-slide-3.jpg" alt=""></div>
-	      <div class="ss-description">Название данного проекта<br> можно писать в 2 строки</div>
-	    </a>
-	  </div>
-	  <div class="col-xs-3 wt-single-slide-box">
-	    <a href="portfolio_page.php">
-	      <div class="ss-image"><div class="ss-image-twilight"></div><img src="images/portfolio-slides/p-slide-4.jpg" alt=""></div>
-	      <div class="ss-description">Название данного проекта<br> можно писать в 2 строки</div>
-	    </a>
-	  </div>
-	  <div class="col-xs-3 wt-single-slide-box">
-	    <a href="portfolio_page.php">
-	      <div class="ss-image"><div class="ss-image-twilight"></div><img src="images/portfolio-slides/p-slide-1.jpg" alt=""></div>
-	      <div class="ss-description">Сайт такой-то. Было реализлвано то и это</div>
-	    </a>
-	  </div>
-	  <div class="col-xs-3 wt-single-slide-box">
-	    <a href="portfolio_page.php">
-	      <div class="ss-image"><div class="ss-image-twilight"></div><img src="images/portfolio-slides/p-slide-2.jpg" alt=""></div>
+	      <div class="ss-image"><div class="image-twilight"></div><img src="images/portfolio-slides/p-slide-2.jpg" alt=""></div>
 	      <div class="ss-description">Название данного проекта<br> можно писать в 2 строки</div>
 	    </a>
 	  </div>
