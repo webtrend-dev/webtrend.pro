@@ -4,9 +4,7 @@
   <meta charset="utf-8">
   <title>webtrend.pro - Услуги</title>
   
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script>
-  <script type="text/javascript" src="js/bootstrap.js"></script>
+  <?/*<meta name="viewport" content="width=device-width, initial-scale=1">*/?>
   <link href="css/bootstrap.min.css" rel="stylesheet">
   <link href="css/1.0.0.css" rel="stylesheet">
 </head>
@@ -15,15 +13,15 @@
     <div class="navbar navbar-inverse " role="navigation"><!--navbar-fixed-top-->
       <div class="container">
         <div class="navbar-header">
-          <a class="navbar-brand" href="/">web trend</a>
+          <a class="navbar-brand" href="index.php">web trend</a>
         </div>
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav navbar-right">
             <li><a href="#o-kompanii">о компании</a></li>
             <li class="active"><a href="#uslugi">услуги</a></li>
-            <li><a href="#portfolio">портфолио</a></li>
+            <li><a href="portfolio.php">портфолио</a></li>
             <li><a href="#kontakty">блог</a></li>
-            <li><a href="#blog">контакты</a></li>
+            <li><a href="contacts.php">контакты</a></li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>
@@ -111,14 +109,14 @@
             <p class="services-desc-text">Заказав сайт у нас, вы можете быть уверены — этот ресурс станет не только визитной карточкой вашей компании, но и  — эффективным инструментом, неизменно приносящим новых клиентов и процветание бизнесу. </p>
             <div class="services-link-portfolio"><a href="#" class="red-link">Посмотреть в портфолио</a></div>
             <div class="services-link-dogovor"><a href="#" class="black-link">Скачать договор</a></div>
-            <a href="#" class="btn btn-black-red know-prices">Узнать цены</a>
+            <a href="#" class="btn btn-black-red btn-244">Узнать цены</a>
           </div>
           <div class="col-xs-6 services-description-column">
             <div class="h4 internet-magazin">Интернет-магазин</div>
             <p class="services-desc-text">Создавая интернет-магазин в Web-trend, ресурс, который осуществляет продажи на протяжении 24 часов в сутки, 7 дней в неделю, вы вкладываете будущее. Интернет-магазин работает на вас, даже когда вы отдыхаете.</p>
             <div class="services-link-portfolio"><a href="#" class="red-link">Посмотреть в портфолио</a></div>
             <div class="services-link-dogovor"><a href="#" class="black-link">Скачать договор</a></div>
-            <a href="#" class="btn btn-black-red know-prices">Узнать цены</a>
+            <a href="#" class="btn btn-black-red btn-244">Узнать цены</a>
           </div>
         </div>
       </div>
@@ -126,7 +124,7 @@
     
     <div class="services-site-accompaniment" id="services-site-accompaniment">
       <div class="h2 bottom-red-line">Сопровождение</div>
-      <div class="services-workflow">
+      <div class="services-workflow site-accompaniment-img">
         <img src="./images/accompaniment-algorithm.png" alt=""><!-- 880px -->
       </div>
       <div class="accompaniment-stats"> 
@@ -182,7 +180,7 @@
             <p class="accompaniment-desc-text">Тариф для компаний, которым важна регулярная работа над обновлением контента сайта, а так же всесторонняя техническая поддержка.</p>
             <div class="services-link-portfolio"><a href="#" class="red-link">Посмотреть набор услуг</a></div>
             <div class="services-link-dogovor"><a href="#" class="black-link">Скачать договор</a></div>
-            <a href="#order" class="btn btn-black-red to-order">Заказать</a>
+            <a href="#order" class="btn btn-black-red btn-244">Заказать</a>
           </div>
           <div class="col-xs-6 accompaniment-description-column">
             <div class="h4">Безлимитный пакет</div>
@@ -199,7 +197,7 @@
             <p class="accompaniment-desc-text">Тариф, в первую очередь нацеленный на увеличение продаж с сайта (подходит для интернет-магазинов). Включает в себя комплексное обновление контента и техническую поддержку.</p>
             <div class="services-link-portfolio"><a href="#" class="red-link">Посмотреть набор услуг</a></div>
             <div class="services-link-dogovor"><a href="#" class="black-link">Скачать договор</a></div>
-            <a href="#order" class="btn btn-black-red to-order">Заказать</a>
+            <a href="#order" class="btn btn-black-red btn-244">Заказать</a>
           </div>
         </div>
       </div>
@@ -222,7 +220,7 @@
 	        <div class="engineering-price"></div>
 	        <span class="engineering-price-currency">руб.</span>
           </div>
-          <a href="order-consultation" class="btn btn-white-black order-consultation">Заказать консультацию</a>
+          <a href="order-consultation" class="btn btn-white-black btn-244">Заказать консультацию</a>
         </div>
       </div>
     </div>
@@ -273,10 +271,70 @@
       </div>
       <div class="analitics-container container">
         <div class="analitics-final-text">Стоимость рассчитывается индивидуально исходя из задач</div>
-        <a href="order-consultation" class="btn btn-black-red order-consultation">Заказать консультацию</a>
+        <a href="order-consultation" class="btn btn-black-red btn-244">Заказать консультацию</a>
+      </div>
+    </div>
+  </div><!-- #uslugi -->
+  
+  <footer> 
+  <div class="container">
+    <div class="footer-columns-block">
+      <ul class="list-inline footer-columns clearfix">
+        <li class="col-xs-4 footer-webtrend">
+	      <div class="footer-column-title">Webtrend</div>
+	      <p class="footer-webtrend-address">ул. Ленинская Слобода, д.19</p>
+	      <p class="footer-webtrend-phone">ТЕЛ. +7 (499) 390-23-83</p>
+	      <a href="#call-back" class="red-button call-back clearfix">Заказать звонок</a>
+        </li>
+        <li class="col-xs-4 footer-menu">
+	      <div class="footer-column-title">Меню</div>
+	      <div class="col-xs-12 col-md-6 footer-menu-list">
+	        <ul class="footer-links-block">
+	          <li><a href="#uslugi">Услуги</a></li>
+	          <li><a href="#o-kompanii">О компании</a></li>
+	          <li><a href="#portfolio">Портфолио</a></li>
+	        </ul>
+	      </div>
+	      <div class="col-xs-12 col-md-6 footer-menu-list">
+	        <ul class="footer-links-block">
+	          <li><a href="#uslugi">Блог</a></li>
+	          <li><a href="#o-kompanii">Вакансии</a></li>
+	          <li><a href="#portfolio">Контакты</a></li>
+	        </ul>
+	      </div>
+        </li>
+        <li class="col-xs-4 footer-ask-question">
+	      <div class="footer-column-title title-ask-question">Задать вопрос</div>
+	      <div class="clearfix ask-two-texts">
+	        <div class="col-xs-6 footer-fio"><input type="text" class="form-control input-text" placeholder="ФИО*"></div>
+	        <div class="col-xs-6 footer-phone"><input type="text" class="form-control input-text" placeholder="Телефон*"></div>
+	      </div>
+	      <div class="footer-question">
+	        <textarea class="form-control input-text" placeholder="Вопрос*" ></textarea>
+	      </div>
+	      <a href="#sell" class="red-button call-back clearfix">Отправить</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <div class="container">
+      <div class="copyright"><span>Copyright © 2014 По общим вопросам order@webtrend.pro</span></div>
+      <div class="social-networks">
+	    <ul class="list-inline">
+	      <li class="social-network"><a href="#" class="fb"></a></li>
+	      <li class="social-network"><a href="#" class="tw"></a></li>
+	      <li class="social-network"><a href="#" class="vk"></a></li>
+	      <li class="social-network"><a href="#" class="sk"></a></li>
+	    </ul>
       </div>
     </div>
   </div>
+  <div id="up" class="up"></div>
+  </footer>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/scripts.js"></script>
 </body>  
   
   
