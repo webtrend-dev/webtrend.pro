@@ -1,6 +1,5 @@
 $(document).ready(function(){
 var wWindow = $(window).width();
-console.log(wWindow);
 
 var wt_maxSlides = 4;
 var wt_moveSlides = 3;
