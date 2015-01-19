@@ -39,11 +39,10 @@
        url('../fonts/Helvetica-3-Thin.svg#Helvetica-3-Thin') format('svg');
 }
 .container{
-    width:1000px !important;
+  min-width: 1000px;
 }
 @media (min-width: 1200px){
   .container{
-    width:1000px;
     padding: 0;
   }
   .site-creating-img{
@@ -61,13 +60,8 @@
     width:100%;
   }
 }
-*{
-  -moz-box-sizing:    border-box;
-  box-sizing: border-box;
-}
-html {}
 body {
-  min-width: 1000px;
+  min-width:1030px;
 }
 .h2, .h3, .h4{
   font-family: 'Helvetica-6-Medium';
@@ -169,10 +163,20 @@ body {
 }
 /* ! header */
 
+/* top-slider */
 .top-slider .jumbotron{
   text-align: center;
   background: transparent;
-  padding: 196px 0 195px;
+  padding: 117px 0 195px;
+}
+.slide-internet-magazin .white-h1{
+  margin-top: 43px;
+}
+.slide-rekordsmeni .white-h1{
+  margin-top: 43px;
+}
+.slide-rekordsmeni p {
+  color: #fff;
 }
 .top-slider .tab-content>.tab-pane {/* разобраться с bootstrap */
   height: 714px; /* высота при ресайзе и разныз размерах окна */
@@ -190,6 +194,17 @@ body {
   font-family: 'Helvetica-6-Medium';
   text-transform: uppercase;
 }
+.top-slider .jumbotron .h1:after{
+  content: '';
+  display: block;
+  height: 2px;
+  background: #d31720;
+  margin: 22px auto 0;
+  width: 50%;
+}
+.top-slider .jumbotron .white-h1:after{
+  margin-top: 26px;
+}
 .h1.white-h1{
   font-size: 52px;
   color: #fff;
@@ -199,15 +214,22 @@ body {
   font-size: 77px;
   color: #231f20;
 }
-.slider-description{
+.jumbotron .top-slider-text{
+  margin-bottom: 64px;
+  height: 90px;
+  overflow-y: hidden;
+}
+.jumbotron .slider-description{
   font-family: 'Helvetica-4-Light';
   font-size: 21px;
   color:#fff;
+  margin-bottom: 5px;
 }
-.price{
+.jumbotron .price{
   font-family: 'Helvetica-6-Medium';
   font-size: 40px;
   color:#fff;
+  margin-bottom: 38px;
 }
 .price-number{
   font-size: 57px;
@@ -1970,10 +1992,10 @@ ymaps.ymaps-b-balloon__sprite.ymaps-b-balloon__sprite_position_bl{/* нижня�
 
 /**/ .halko{ 
   position: absolute;
-left: 20%;
+left: 40%;
 top: 0px;
 background: green;
 width: 150px;
-height: 85px;
+height: 150px;
 }     
 /* скомпилировать в less */
