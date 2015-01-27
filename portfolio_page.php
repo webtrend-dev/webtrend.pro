@@ -4,26 +4,32 @@
   <meta charset="utf-8">
   <title>webtrend.pro</title>
   
-  <?/*<meta name="viewport" content="width=device-width, initial-scale=1">*/?>  
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
   <link href="css/bootstrap.min.css" rel="stylesheet">
-  <link href="css/jquery.bxslider.css" rel="stylesheet">
   <link href="css/1.0.0.css" rel="stylesheet">
 </head>
 <body>
 
   <header class="header low-header">
-    <div class="navbar navbar-inverse " role="navigation"><!--navbar-fixed-top-->
+    <div class="navbar navbar-inverse" role="navigation"><!--navbar-fixed-top-->
       <div class="container">
         <div class="navbar-header">
           <a class="navbar-brand" href="index.php">web trend</a>
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#header-nav-hidden">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
         </div>
-        <div class="navbar-collapse collapse">
+        <div class="navbar-collapse collapse" id="header-nav-hidden">
           <ul class="nav navbar-nav navbar-right">
             <li><a href="#o-kompanii">о компании</a></li>
             <li><a href="uslugi.php">услуги</a></li>
             <li><a href="portfolio.php">портфолио</a></li>
             <li><a href="#kontakty">блог</a></li>
-            <li class="active"><a href="#blog">контакты</a></li>
+            <li><a href="contacts.php">контакты</a></li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>
@@ -107,26 +113,26 @@
     </div>
   </div><!-- #portfolio_site -->
   
-  <footer> 
+<footer> 
   <div class="container">
     <div class="footer-columns-block">
       <ul class="list-inline footer-columns clearfix">
-        <li class="col-xs-4 footer-webtrend">
+        <li class="col-xs-12 col-sm-4 footer-webtrend">
 	      <div class="footer-column-title">Webtrend</div>
 	      <p class="footer-webtrend-address">ул. Ленинская Слобода, д.19</p>
 	      <p class="footer-webtrend-phone">ТЕЛ. +7 (499) 390-23-83</p>
 	      <a href="#call-back" class="red-button call-back clearfix">Заказать звонок</a>
         </li>
-        <li class="col-xs-4 footer-menu">
+        <li class="col-xs-12 col-sm-4 footer-menu">
 	      <div class="footer-column-title">Меню</div>
-	      <div class="col-xs-12 col-md-6 footer-menu-list">
+	      <div class="col-xs-6 footer-menu-list">
 	        <ul class="footer-links-block">
 	          <li><a href="#uslugi">Услуги</a></li>
 	          <li><a href="#o-kompanii">О компании</a></li>
 	          <li><a href="#portfolio">Портфолио</a></li>
 	        </ul>
 	      </div>
-	      <div class="col-xs-12 col-md-6 footer-menu-list">
+	      <div class="col-xs-6 footer-menu-list">
 	        <ul class="footer-links-block">
 	          <li><a href="#uslugi">Блог</a></li>
 	          <li><a href="#o-kompanii">Вакансии</a></li>
@@ -134,7 +140,7 @@
 	        </ul>
 	      </div>
         </li>
-        <li class="col-xs-4 footer-ask-question">
+        <li class="col-xs-12 col-sm-4 footer-ask-question">
 	      <div class="footer-column-title title-ask-question">Задать вопрос</div>
 	      <div class="clearfix ask-two-texts">
 	        <div class="col-xs-6 footer-fio"><input type="text" class="form-control input-text" placeholder="ФИО*"></div>
@@ -150,20 +156,21 @@
   </div>
   <div class="footer-bottom">
     <div class="container">
-      <div class="copyright"><span>Copyright © 2014 По общим вопросам order@webtrend.pro</span></div>
-      <div class="social-networks">
+      <div class="col-xs-12 col-sm-8 copyright"><span>Copyright © 2014 По общим вопросам </span><a href="mailto:order@webtrend.pro">order@webtrend.pro</a></div>
+      <div class="col-xs-12 col-sm-4 social-networks">
 	    <ul class="list-inline">
 	      <li class="social-network"><a href="#" class="fb"></a></li>
 	      <li class="social-network"><a href="#" class="tw"></a></li>
 	      <li class="social-network"><a href="#" class="vk"></a></li>
 	      <li class="social-network"><a href="#" class="sk"></a></li>
 	    </ul>
-      </div>
+      </div>  
     </div>
   </div>
   <div id="up" class="up"></div>
-  </footer>
+</footer>
   <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
   <script src="js/scripts.js"></script>
 </body>
+</html>

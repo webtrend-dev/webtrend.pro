@@ -4,20 +4,25 @@
   <meta charset="utf-8">
   <title>webtrend.pro</title>
   
-  <?/*<meta name="viewport" content="width=device-width, initial-scale=1">*/?>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   
   <link href="css/bootstrap.min.css" rel="stylesheet">
   <link href="css/1.0.0.css" rel="stylesheet">
 </head>
 <body>
-
-<header class="header">
+  <header class="header index_header">
   <div class="navbar navbar-inverse " role="navigation"><!--navbar-fixed-top-->
     <div class="container">
       <div class="navbar-header">
         <a class="navbar-brand" href="/webtrend.pro">web trend</a>
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#header-nav-hidden">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
       </div>
-      <div class="navbar-collapse collapse">
+      <div class="navbar-collapse collapse" id="header-nav-hidden">
         <ul class="nav navbar-nav navbar-right">
           <li class="active"><a href="#o-kompanii">о компании</a></li>
           <li><a href="uslugi.php">услуги</a></li>
@@ -25,10 +30,10 @@
           <li><a href="#blog">блог</a></li>
           <li><a href="contacts.php">контакты</a></li>
         </ul>
-      </div><!--/.nav-collapse -->
+      </div><? /* .nav-collapse */ ?>
     </div>
   </div>
-</header>
+  </header>
 <div class="top-slider">
   <div class="tab-content">
     <div class="tab-pane fade in active" id="top-slider-1">
@@ -52,32 +57,36 @@
       </div>
     </div>
     <div class="tab-pane fade" id="top-slider-3">
-      <div class="container">
-        <div class="jumbotron slide-rekordsmeni">
-          <p class="h1 white-h1">Рекордсмены</p>
-          <p class="top-slider-text slider-three-rows">Компания Webtrend стала золотым <br>партнером UMI.CMS, поставив рекорд <br>по времени получения золотого статуса</p>
-          <p><a class="btn btn-white-red btn-lg btn-172" role="button">Подробнее</a></p>
+      <div class="top-slider-3-ongradient">
+        <div class="container">
+          <div class="jumbotron slide-rekordsmeni">
+            <p class="h1 white-h1">Рекордсмены</p>
+            <p class="top-slider-text slider-three-rows">Компания Webtrend стала золотым <br>партнером UMI.CMS, поставив рекорд <br>по времени получения золотого статуса</p>
+            <p><a class="btn btn-white-red btn-lg btn-172" role="button">Подробнее</a></p>
+          </div>
         </div>
-      </div>
+      </div><!-- top-slider-3-ongradient -->
     </div>
     <div class="tab-pane fade" id="top-slider-4">
-      <div class="container">
-        <div class="jumbotron">
-          <p class="h1">Hello, world!</p>
-          <p>с высокой конверсией всего за</p>
-          <p>99 900 рублей</p>
-          <p><a class="btn btn-primary btn-lg" role="button">Подробнее</a></p>
+      <div class="top-slider-4-ongradient">
+        <div class="container">
+          <div class="jumbotron slide-startap">
+            <p class="slide-title">Готовые</p>
+            <p class="slide-4-text">SEO-адаптированные сайты</p>
+            <p class="slide-4-desc">Тариф "Стартап"</p>
+            <p><a class="btn btn-white-red btn-lg btn-172" role="button">Подробнее</a></p>
+          </div>
         </div>
-      </div>
+      </div><!-- top-slider-4-ongradient -->
     </div>
   </div>
   <div class="tab-list slider-buttons">
     <div class="container">
-      <ul class="list-inline" role="tablist">
+      <ul class="list-inline clearfix" role="tablist">
         <li class="col-xs-3 active"><a href="#top-slider-1" role="tab" data-toggle="tab" class="tab-sale-icon">Скидка 25%</a></li>
         <li class="col-xs-3"><a href="#top-slider-2" role="tab" data-toggle="tab" class="tab-shop-icon">Интернет-магазин</a></li>
         <li class="col-xs-3"><a href="#top-slider-3" role="tab" data-toggle="tab" class="tab-records-icon">Рекордсмены</a></li>
-        <li class="col-xs-3"><a href="#top-slider-4" role="tab" data-toggle="tab" class="tab-leaders-icon">Лидеры</a></li>
+        <li class="col-xs-3"><a href="#top-slider-4" role="tab" data-toggle="tab" class="tab-leaders-icon">Тариф "Стартап"</a></li>
       </ul>
     </div>
   </div>
@@ -85,9 +94,18 @@
 <div class="company-stats">
   <div class="container">
     <ul class="list-inline clearfix">
-      <li class="col-xs-4"><span class="black-comma">78</span> <span class="stats-description">довольных клиентов</span></li>
-      <li class="col-xs-4"><span class="black-comma short-black-comma">116</span> действующих проектов</li>
-      <li class="col-xs-4"><span class="black-comma">78</span> работ в портфолио</li>
+      <li class="col-xs-4">
+        <div class="black-comma-outer"><span class="black-comma">78</span></div>
+        <span class="stats-description">довольных клиентов</span>
+      </li>
+      <li class="col-xs-4">
+        <div class="black-comma-outer"><span class="black-comma">116</span></div>
+        <span class="stats-description">действующих проектов</span>
+      </li>
+      <li class="col-xs-4">
+        <div class="black-comma-outer"><span class="black-comma">56</span></div>
+        <span class="stats-description">работ в портфолио</span>
+      </li>
     </ul>
   </div>
 </div>
@@ -96,22 +114,22 @@
   <div class="container">
     <div class="footer-columns-block">
       <ul class="list-inline footer-columns clearfix">
-        <li class="col-xs-4 footer-webtrend">
+        <li class="col-xs-12 col-sm-4 footer-webtrend">
 	      <div class="footer-column-title">Webtrend</div>
 	      <p class="footer-webtrend-address">ул. Ленинская Слобода, д.19</p>
 	      <p class="footer-webtrend-phone">ТЕЛ. +7 (499) 390-23-83</p>
 	      <a href="#call-back" class="red-button call-back clearfix">Заказать звонок</a>
         </li>
-        <li class="col-xs-4 footer-menu">
+        <li class="col-xs-12 col-sm-4 footer-menu">
 	      <div class="footer-column-title">Меню</div>
-	      <div class="col-xs-12 col-md-6 footer-menu-list">
+	      <div class="col-xs-6 footer-menu-list">
 	        <ul class="footer-links-block">
 	          <li><a href="#uslugi">Услуги</a></li>
 	          <li><a href="#o-kompanii">О компании</a></li>
 	          <li><a href="#portfolio">Портфолио</a></li>
 	        </ul>
 	      </div>
-	      <div class="col-xs-12 col-md-6 footer-menu-list">
+	      <div class="col-xs-6 footer-menu-list">
 	        <ul class="footer-links-block">
 	          <li><a href="#uslugi">Блог</a></li>
 	          <li><a href="#o-kompanii">Вакансии</a></li>
@@ -119,7 +137,7 @@
 	        </ul>
 	      </div>
         </li>
-        <li class="col-xs-4 footer-ask-question">
+        <li class="col-xs-12 col-sm-4 footer-ask-question">
 	      <div class="footer-column-title title-ask-question">Задать вопрос</div>
 	      <div class="clearfix ask-two-texts">
 	        <div class="col-xs-6 footer-fio"><input type="text" class="form-control input-text" placeholder="ФИО*"></div>
@@ -135,8 +153,8 @@
   </div>
   <div class="footer-bottom">
     <div class="container">
-      <div class="copyright"><span>Copyright © 2014 По общим вопросам order@webtrend.pro</span></div>
-      <div class="social-networks">
+      <div class="col-xs-12 col-sm-8 copyright"><span>Copyright © 2014 По общим вопросам </span><a href="mailto:order@webtrend.pro">order@webtrend.pro</a></div>
+      <div class="col-xs-12 col-sm-4 social-networks">
 	    <ul class="list-inline">
 	      <li class="social-network"><a href="#" class="fb"></a></li>
 	      <li class="social-network"><a href="#" class="tw"></a></li>
